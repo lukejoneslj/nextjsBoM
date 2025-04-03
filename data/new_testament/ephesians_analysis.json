@@ -1,0 +1,53 @@
+{
+  "book": "Ephesians",
+  "chapters": [
+    {
+      "dignity_score": 9,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to embrace the grace of God, live a life of faith and love, and understand the hope of their calling in Christ. It encourages believers to recognize their inheritance and give praise to God.",
+      "rationalization": "The language is respectful and uplifting, focusing on blessings and the positive aspects of faith. It expresses reverence for God and Christ, emphasizing love and unity among believers. The text directly addresses 'saints' and highlights their value in God's plan, promoting a sense of belonging and dignity. There's no disparaging of individuals, instead, it offers hope for the future.",
+      "chapter": 1
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to recognize their previous state of spiritual death and embrace the new life and reconciliation offered through Christ. It calls for a life of faith and good works, living as fellow citizens in God's household.",
+      "rationalization": "The language is respectful and seeks to explain spiritual concepts without attacking or dehumanizing. It acknowledges a shared human experience of sin and separation from God while offering hope and redemption. This chapter is overwhelmingly focused on Christ and his role in salvation, with explicit references to his sacrifice, grace, and central position. The text strongly encourages virtuous living and good behavior by emphasizing the importance of faith, good works, and unity within the Christian community. It outlines a path of transformation and the adoption of God's ways.",
+      "chapter": 2
+    },
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to understand the mystery of Christ's gospel, and the inclusion of Gentiles, to live a life of faith, love, and spiritual growth. It encourages believers to strengthen their faith in Christ and embrace the fullness of God.",
+      "rationalization": "The language of Ephesians 3 is respectful and uplifting, promoting unity and understanding among believers (8). The entire chapter centers around the person and work of Jesus Christ, emphasizing his role in salvation, the inclusion of Gentiles, and the church (10). The text strongly encourages virtuous living by promoting faith, love, humility, and spiritual growth, while also promoting the glory of God (9).",
+      "chapter": 3
+    },
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 10,
+      "moral_score": 10,
+      "invitation": "The chapter invites readers to live a life worthy of their calling as Christians, striving for unity, and growing into the fullness of Christ. It calls for putting off old behaviors and embracing the new life of righteousness and holiness.",
+      "rationalization": "The language uses respectful and encouraging tones throughout the chapter. It emphasizes unity, love, and forgiveness, showing the value of each individual in the body of Christ. The chapter directly references Christ multiple times, including His role as Lord and the foundation of Christian identity and values. It strongly advocates for virtuous living, outlining specific behaviors to avoid (lying, anger, stealing) and behaviors to embrace (speaking truth, kindness, forgiveness). ",
+      "chapter": 4
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 9,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to emulate God and Christ, striving for a life of love, righteousness, and spiritual growth. It also encourages a rejection of sinful behaviors and embracing of the Holy Spirit.",
+      "rationalization": "The language used, while direct, is generally respectful and aims to edify. It consistently points to Christ as the ultimate example of love and sacrifice, anchoring the moral teachings in his example. The chapter's core focus is on virtuous conduct and avoiding sin, providing clear guidance for Christian living. The strong emphasis on Christ's role as a model and the call to embrace the Holy Spirit indicates high scores in both Christ-centeredness and morality. ",
+      "chapter": 5
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 9,
+      "moral_score": 10,
+      "invitation": "The chapter invites the reader to live a life guided by Christian principles, emphasizing obedience, respect, and faith. It encourages the reader to adopt the 'whole armor of God' to withstand evil and to find strength in the Lord.",
+      "rationalization": "The text promotes respect within familial and social structures, which fosters dignity. It directly mentions Christ and Christian principles, grounding the instructions in faith. The chapter strongly encourages virtuous behavior like obedience, kindness, and resisting evil. The language is generally uplifting and aims to inspire positive action, focusing on building up individuals within a community of faith.",
+      "chapter": 6
+    }
+  ]
+}

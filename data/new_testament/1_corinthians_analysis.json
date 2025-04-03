@@ -1,0 +1,133 @@
+{
+  "book": "1 Corinthians",
+  "chapters": [
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites readers to unity in Christ, to reject divisions, and to embrace the message of the cross. It encourages them to focus on Christ's teachings and to find their identity in him.",
+      "rationalization": "The language is respectful and addresses the audience as 'brethren' and 'saints'. It avoids personal attacks and focuses on the core message of the gospel. The text emphasizes unity and love among believers. The focus is on building each other up. The chapter celebrates Christ and his message.",
+      "chapter": 1
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to embrace the wisdom of God through the Holy Spirit, rejecting the wisdom of the world. It encourages a spiritual discernment that leads to understanding and living in accordance with God's will.",
+      "rationalization": "The language avoids personal attacks and focuses on contrasting the wisdom of God with worldly wisdom. It speaks of the 'hidden wisdom' that brings glory. The chapter consistently emphasizes the power and knowledge of God, even for those who crucified Jesus. This is an example of language used to inspire understanding.",
+      "chapter": 2
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites readers to strive for spiritual maturity and unity in Christ, prioritizing faith over worldly wisdom. It encourages building a life on the foundation of Jesus Christ.",
+      "rationalization": "The language is respectful, addressing the Corinthians as 'brethren' and acknowledging their struggles. It centers around Christ as the foundation of faith, emphasizing his role and teachings. The chapter strongly promotes moral living, warning against divisions, emphasizing the importance of unity and the holiness of the body of Christ, and encouraging humility.",
+      "chapter": 3
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 9,
+      "moral_score": 9,
+      "invitation": "The chapter invites readers to be faithful stewards of God's mysteries, to avoid judging others prematurely, and to follow the example of Paul in humility and service.",
+      "rationalization": "The language is largely respectful, focusing on instruction and correction rather than personal attacks, earning a high dignity score. The text is highly Christ-centered, referencing ministers of Christ, emphasizing Christian principles, and highlighting Paul's teachings, leading to a high score. The chapter strongly encourages virtuous living, emphasizing humility, faithfulness, and service to others, meriting a high moral score. Paul is directly teaching and instructing the church, encouraging them to emulate him in his Christ-like behavior.",
+      "chapter": 4
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 8,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to confront sin within the community, uphold Christian standards, and live a life of sincerity and truth. It also invites believers to separate themselves from those living immoral lives while understanding God judges those outside of the faith.",
+      "rationalization": "The language, while direct, is used to address a serious issue within the community rather than attack individuals. The text repeatedly mentions the Lord Jesus Christ and references Christian principles. It strongly promotes virtuous living by condemning fornication, encouraging separation from those engaged in immorality, and urging believers to embrace sincerity and truth. The focus on judgment and exclusion lowers the score slightly, but the overall intent is to guide believers towards a righteous path.",
+      "chapter": 5
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 9,
+      "moral_score": 10,
+      "invitation": "The chapter invites readers to avoid lawsuits amongst believers, embrace forgiveness, and pursue a life of holiness, including avoiding sexual immorality, and to glorify God.",
+      "rationalization": "The language, while firm, addresses the Corinthian church with a tone of correction rather than malice, suggesting a desire for improvement. The chapter frequently references the name of the Lord Jesus, atonement, and the guidance of the Holy Spirit. The chapter gives strong moral teachings, focusing on avoiding sinful behaviors and striving towards righteous living and emphasizes the importance of the body as a temple of God.",
+      "chapter": 6
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 6,
+      "moral_score": 9,
+      "invitation": "The chapter invites believers to consider the benefits of both marriage and singleness, and to live in accordance with God's will in their chosen state. It encourages them to prioritize spiritual matters and to maintain healthy relationships within the context of marriage and the church.",
+      "rationalization": "The language is generally respectful, offering advice and guidance without condemnation. While not explicitly focusing on Christ's atonement, it often alludes to Christian principles such as peace and obedience. The chapter strongly emphasizes virtuous living by addressing topics like marriage, singleness, and the importance of treating others with respect. Paul offers guidance and encourages actions based on wisdom and spiritual understanding.",
+      "chapter": 7
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 8,
+      "moral_score": 10,
+      "invitation": "The chapter invites readers to consider the impact of their actions on others, particularly those with weaker consciences, and to prioritize their spiritual well-being by putting the needs of others above personal liberty. It encourages believers to act in ways that reflect the love and sacrifice of Christ.",
+      "rationalization": "The language is generally respectful, focusing on explaining concepts rather than attacking individuals, scoring a 7. The chapter centers on Christ through mentioning the concept of Christ dying for others and encouraging followers to behave as Christ would, scoring an 8. The text strongly promotes ethical behavior, urging consideration for others' faith, which makes its moral score a 10. The invitation is clear: sacrifice your personal freedom for the sake of others' faith and conscience.",
+      "chapter": 8
+    },
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 9,
+      "moral_score": 10,
+      "invitation": "The chapter invites the reader to strive for spiritual excellence and to live a life dedicated to the Gospel, following the example of selflessness and dedication set by Paul.",
+      "rationalization": "The dignity score is high because Paul, while asserting his authority, does so with respect and humility. He appeals to understanding rather than using harsh language. The Christ-centered score is strong because the entire chapter is rooted in Paul's apostleship, which is predicated on his encounter with Christ and his mission to preach the Gospel. The moral score is perfect as the chapter promotes self-discipline, service to others, and a commitment to the Gospel's teachings. The text explicitly encourages virtuous living through the examples provided by Paul himself and uses parables and examples of those in positions of service, such as those who work in the temple or in a race.",
+      "chapter": 9
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 9,
+      "moral_score": 10,
+      "invitation": "The chapter invites readers to avoid idolatry, fornication, and other sins, and to live in a way that glorifies God. It calls for unity within the body of Christ and encourages believers to prioritize the well-being of others.",
+      "rationalization": "The language used is generally respectful, offering guidance and instruction rather than condemnation. It directly references Christ as the spiritual Rock and foundation for believers. The chapter provides clear moral directives against sin, emphasizing ethical conduct and virtuous living. While addressing negative behaviors, it does so with an eye toward redemption and encouragement.",
+      "chapter": 10
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 8,
+      "moral_score": 8,
+      "invitation": "The chapter invites readers to follow the example of Christ and to participate in the Lord's Supper in a worthy manner, while also maintaining order within the church.",
+      "rationalization": "The language is generally respectful, though it includes strong opinions regarding gender roles. It strongly references Christ through direct teachings about the Eucharist and the remembering of his sacrifice. The chapter provides solid moral teachings regarding proper conduct, respect, and partaking of the sacraments, promoting virtuous living within the community.",
+      "chapter": 11
+    },
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 9,
+      "moral_score": 10,
+      "invitation": "The chapter invites readers to understand and embrace the diversity of spiritual gifts, recognizing that each individual, like a member of a body, is valuable and contributes to the whole of Christ's body. It encourages unity, mutual respect, and the pursuit of the best gifts.",
+      "rationalization": "The language uses respectful and encouraging tones throughout, fostering a sense of community and shared purpose, avoiding derogatory language. The chapter centers on the Holy Spirit and its role in empowering believers and connecting them to Christ, implicitly or explicitly. It emphasizes the interconnectedness and mutual dependence of believers, instructing them to care for each other, promoting virtues like humility, unity, and love, and actively rejecting division.",
+      "chapter": 12
+    },
+    {
+      "dignity_score": 10,
+      "christ_centered_score": 7,
+      "moral_score": 10,
+      "invitation": "The chapter invites the reader to embrace charity (love) as the most important virtue, surpassing all other gifts and achievements. It encourages a life characterized by patience, kindness, humility, and selflessness.",
+      "rationalization": "The language is highly dignified, focusing on virtues and positive character traits, promoting respect for others. While not explicitly mentioning Jesus, the teachings align directly with his emphasis on love as the greatest commandment, pointing indirectly to Christ. The chapter provides a comprehensive guide to virtuous living, defining charity in practical terms and offering a standard for moral behavior. The emphasis on love, encompassing all other virtues, is a central tenet of Christian faith and ethical living.",
+      "chapter": 13
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 8,
+      "moral_score": 9,
+      "invitation": "The chapter invites readers to prioritize edification of the church, particularly through prophecy, while also recognizing the value of spiritual gifts like speaking in tongues. It encourages order and understanding in worship and the use of spiritual gifts.",
+      "rationalization": "The language in 1 Corinthians 14 is respectful and aims for understanding (dignity score of 7). It indirectly references Christ through emphasis on spiritual gifts, the importance of the church, and adherence to God's will (Christ-centered score of 8). The chapter strongly promotes virtuous behavior through emphasis on order, understanding, edification, and the importance of love (moral score of 9). The focus is on the correct use of spiritual gifts for the good of the whole body of believers.",
+      "chapter": 14
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to believe in the resurrection of Jesus Christ and to live a life of faith, righteousness, and hope in light of that belief. It encourages believers to be steadfast in their faith and labor for the Lord.",
+      "rationalization": "The language is respectful and seeks to explain complex theological concepts without disparaging others. The chapter is explicitly and extensively focused on Jesus Christ's death, burial, and resurrection, making it strongly Christ-centered. It encourages virtuous living through warnings against sin and exhortations to righteousness, thus earning a high moral score. The overall tone is encouraging and aims to uplift believers in their faith.",
+      "chapter": 15
+    },
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 9,
+      "moral_score": 10,
+      "invitation": "The chapter invites readers to participate in charitable giving, to watch, stand fast in faith, and to live with love and submission to those who serve the Lord.",
+      "rationalization": "The language is respectful and focuses on encouraging positive actions within the Christian community, such as supporting the poor. The core message centers around the importance of faith in Jesus Christ, and his teachings. The passage consistently emphasizes virtues like love, unity, and mutual respect, providing strong moral guidance for believers. Paul expresses his love, prays for grace, and includes a strong warning against those who do not love the Lord Jesus Christ.",
+      "chapter": 16
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "book": "Solomon's Song",
+  "chapters": [
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 4,
+      "moral_score": 7,
+      "invitation": "The chapter invites the reader to experience and understand the nature of passionate, intimate love, and to appreciate the beauty and worth of the beloved. It encourages a love that is sought after and celebrated within a sacred space.",
+      "rationalization": "The language is primarily respectful and celebrates the beauty and intimacy of love, earning a high dignity score. While it is not explicitly focused on Christ, the themes of love, devotion, and the longing for a beloved can be seen as allegorical to the relationship between Christ and the Church, earning a middle score. The text promotes virtuous living by emphasizing the value of affection, appreciation, and the sanctity of a loving relationship, contributing to its high moral score. The invitation is open to understanding and experiencing intimate love and appreciating the divine. ",
+      "chapter": 1
+    },
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 4,
+      "moral_score": 8,
+      "invitation": "The chapter invites the reader to experience the joy of intimate love, to cherish and nurture that love, and to seek the beloved.",
+      "rationalization": "The language is primarily focused on the beauty and intimacy of romantic love, which generally treats others with respect. While not explicitly about Christ, the themes of love and devotion can be seen as reflections of the love between Christ and the Church. The chapter emphasizes the importance of mutual affection, companionship, and faithfulness, encouraging virtuous behavior within a relationship. The focus on a loving relationship implicitly invites the reader to foster such connections.",
+      "chapter": 2
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 5,
+      "moral_score": 8,
+      "invitation": "The chapter invites the reader to experience the passionate love and search for the beloved, symbolizing the yearning for a deeper relationship with God. It also encourages the reader to appreciate the beauty and splendor of devotion.",
+      "rationalization": "The language is romantic and passionate, focusing on love and longing, thus offering dignity in the expression of human emotion. While not explicitly mentioning Christ, the search for the beloved can be interpreted as a metaphor for the soul's quest for God. The text promotes moral ideals of faithfulness, devotion, and valuing the relationship between the lovers. The imagery and devotion within the chapter set a good example to follow.",
+      "chapter": 3
+    },
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 4,
+      "moral_score": 8,
+      "invitation": "The chapter invites the reader to experience the beauty and intimacy of love, both in a physical and spiritual sense. It also invites the reader to appreciate the beauty and value of another person.",
+      "rationalization": "The language used is highly complimentary and celebrates the beauty of the beloved, using vivid and positive imagery. This chapter promotes respect and admiration between lovers. While not explicitly mentioning Christ, the themes of intimacy, commitment, and the sacredness of marriage can be seen as prefiguring Christ's love for the Church. The chapter encourages virtuous living by portraying love as a source of joy and fulfillment, and by emphasizing the importance of exclusivity and devotion within the relationship.",
+      "chapter": 4
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 5,
+      "moral_score": 7,
+      "invitation": "The chapter invites the reader to experience the longing and passionate love between two people, and to seek after the beloved. It encourages the reader to value the beloved and to share that joy with others.",
+      "rationalization": "The language is generally respectful and poetic, though expressing strong emotion. The longing for the beloved is a metaphor, creating an opportunity to seek common ground. The indirect relationship to Christ is through the archetype of a loving relationship, which is a foundation for Christian teachings. The text promotes virtues like fidelity, passion, and perseverance in seeking a beloved, making it a moral guide.",
+      "chapter": 5
+    },
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 6,
+      "moral_score": 7,
+      "invitation": "The chapter invites the reader to appreciate the beauty of love, both physical and spiritual, and to strive for a devoted and exclusive relationship with their beloved.",
+      "rationalization": "The language is primarily complimentary and celebratory, focusing on the beauty and desirability of the woman. It avoids derogatory terms and promotes admiration. While not explicitly mentioning Christ, the chapter echoes themes of love, devotion, and exclusivity, which can be seen as reflections of Christ's love for the church. The chapter promotes themes of exclusive love and the valuing of a special relationship, encouraging virtuous behavior within the context of a committed relationship.",
+      "chapter": 6
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 3,
+      "moral_score": 7,
+      "invitation": "The chapter invites readers to appreciate physical beauty and the pleasures of love, while also suggesting a longing for connection and intimacy within a loving relationship. It also implicitly encourages enjoying the simple joys of life and appreciating the beauty of nature.",
+      "rationalization": "The language is primarily descriptive and appreciative, focusing on the physical beauty of the beloved, thus earning a high dignity score. The chapter doesn't explicitly mention Christ or Christian concepts, so the Christ-centered score is low. However, it promotes valuing a beloved, which indirectly reflects core moral principles. The chapter promotes cherishing a loving relationship, spending time with a beloved, and enjoying God's creation, aligning with general moral values, resulting in a high moral score.",
+      "chapter": 7
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 4,
+      "moral_score": 8,
+      "invitation": "The chapter invites the reader to experience the profound and enduring nature of love, both physical and spiritual, and to value its strength and commitment.",
+      "rationalization": "The language, while passionate and intimate, generally respects the individuals involved, earning a high dignity score. While not explicitly referencing Christ, the chapter's focus on love and commitment can be seen as mirroring Christian ideals, giving it a moderate score. The text strongly encourages virtuous living by praising love's power, fidelity, and the importance of cherishing relationships, thus meriting a high moral score. The invitation is subtle, focusing on the experience of love rather than explicit action, prompting reflection on relationships.",
+      "chapter": 8
+    }
+  ]
+}

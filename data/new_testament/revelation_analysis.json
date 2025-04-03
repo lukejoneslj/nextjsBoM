@@ -1,0 +1,181 @@
+{
+  "book": "Revelation",
+  "chapters": [
+    {
+      "dignity_score": 10,
+      "christ_centered_score": 10,
+      "moral_score": 10,
+      "invitation": "The chapter invites the reader to understand the revelation of Jesus Christ, to heed the words of prophecy, and to live in anticipation of his return. It calls for faith, perseverance, and a life of service.",
+      "rationalization": "The language consistently uplifts and honors Jesus Christ, portraying him as the ultimate authority and source of grace. There is no dehumanization or incitement to violence. Instead, it speaks of love, redemption, and the promise of eternal life. The chapter centers on the divinity of Jesus, providing hope to believers and offers a dignified view of humanity as a whole.",
+      "chapter": 1
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 9,
+      "moral_score": 9,
+      "invitation": "The chapter invites readers to repent, overcome challenges, and remain faithful to Christ. It promises rewards for those who persevere and warns of consequences for those who do not.",
+      "rationalization": "The language, while strong, primarily focuses on correcting behavior and encouraging faithfulness, which is respectful even in its criticism. The text centers on Christ, identifying him and referencing his role in judgement and reward. The chapter contains strong moral teachings, including calls for repentance, upholding faith, and resisting evil, which directly guide toward virtuous living. It uses figurative language, parables, and direct addresses to the churches to communicate a moral and spiritual message.",
+      "chapter": 2
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 9,
+      "moral_score": 10,
+      "invitation": "The chapter invites readers to remain faithful, repent of their sins, and overcome challenges through faith in Jesus Christ. It promises blessings to those who endure and follow Christ's teachings.",
+      "rationalization": "The language, while direct, speaks to individuals within a community of faith, offering warnings and promises without resorting to personal attacks. It directly identifies Jesus Christ as the speaker, emphasizing his authority and role as judge and savior. The chapter strongly emphasizes the importance of repentance, perseverance, and righteous living, providing clear moral guidelines for believers.",
+      "chapter": 3
+    },
+    {
+      "dignity_score": 9,
+      "christ_centered_score": 8,
+      "moral_score": 8,
+      "invitation": "The chapter invites the reader to contemplate the majesty of God and participate in worship and praise. It implicitly encourages a life focused on holiness and reverence for the divine.",
+      "rationalization": "The language is reverent and focuses on praising God, which is inherently dignified. While not explicitly about Christ's atonement, the chapter describes God's throne and the worship of him, which aligns with Christian theology. The emphasis on the holiness of God and the elders' worship promotes moral behavior by example and inspiration. The chapter promotes a life of worship and reverence, reflecting a high degree of respect for God and virtuous principles.",
+      "chapter": 4
+    },
+    {
+      "dignity_score": 10,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to worship God and Jesus Christ, acknowledging their worthiness and power. It encourages participation in a heavenly chorus of praise and submission.",
+      "rationalization": "The language uses reverent and elevated tones throughout, praising God and Christ without demeaning any individual or group, therefore a 10. The chapter centers on Christ as the Lamb who is worthy to open the book and redeem humanity, demonstrating his sacrifice and centrality to salvation, resulting in a 10. The text strongly encourages virtuous living through worship, humility, and recognizing the worth of God and Christ, therefore a 9. The narrative emphasizes worship, faith, and gratitude, inviting readers to adopt these virtues and align themselves with the divine order.",
+      "chapter": 5
+    },
+    {
+      "dignity_score": 5,
+      "christ_centered_score": 7,
+      "moral_score": 7,
+      "invitation": "The chapter invites the reader to recognize the unfolding of God's judgment and the ultimate triumph of Christ. It calls for recognition of the suffering of the righteous and the impending judgment of the wicked.",
+      "rationalization": "The language, while apocalyptic, is not inherently dehumanizing (dignity score of 5). The central figure is the Lamb, Jesus Christ, who opens the seals, signifying Christ's central role (christ-centered score of 7). The text describes consequences of sin and the ultimate vindication of the righteous, promoting virtuous living (moral score of 7). It warns against evil and encourages adherence to God's will.",
+      "chapter": 6
+    },
+    {
+      "dignity_score": 9,
+      "christ_centered_score": 10,
+      "moral_score": 10,
+      "invitation": "The chapter invites the reader to find salvation through faith in God and the Lamb (Jesus Christ). It encourages perseverance through tribulation and promises eternal life and comfort.",
+      "rationalization": "The language of Revelation 7 is highly dignified, describing angels, worship, and the redeemed. It centers around Christ, referring to 'the Lamb' and the salvation He offers. The chapter strongly promotes morality by emphasizing the rewards of faith, the washing of robes in the Lamb's blood, and eternal reward. The narrative offers hope and encouragement to believers facing hardship and promises a future free of suffering.",
+      "chapter": 7
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 5,
+      "moral_score": 6,
+      "invitation": "The chapter invites readers to contemplate the consequences of judgment and the importance of faith and prayer. It indirectly calls for repentance and a turn toward God.",
+      "rationalization": "The language is generally respectful in its description of events, though the subject matter is intense. The focus is on a celestial drama related to God. The chapter's indirect references to divine judgment suggest a moral framework for the reader to consider. It testifies of God's power but does not emphasize the core tenants of salvation in the way that other scriptures do.",
+      "chapter": 8
+    },
+    {
+      "dignity_score": 5,
+      "christ_centered_score": 6,
+      "moral_score": 7,
+      "invitation": "The chapter invites the reader to consider the consequences of sin and the importance of repentance. It also calls for awareness of the spiritual battle between good and evil.",
+      "rationalization": "The language, while dramatic, describes suffering and torment without directly dehumanizing anyone, meriting a moderate dignity score. The chapter, though not explicitly focused on Jesus, presents events within a framework of divine judgment, reflecting Christian themes, which warrants a middling Christ-centered score. It strongly emphasizes moral themes such as avoiding idol worship and repentance from sinful behaviors like murder and sorcery, giving it a high moral score. The chapter's focus is on the consequences of sin, and the need for repentance, inviting a reevaluation of one's life and actions.",
+      "chapter": 9
+    },
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 6,
+      "moral_score": 7,
+      "invitation": "The chapter invites the reader to understand the unfolding of God's plan and to prepare for future events. It also encourages prophetic understanding and proclaiming God's word to all people.",
+      "rationalization": "The language used, while symbolic and dramatic, portrays a powerful angel and celestial events, not denigrating any group. While not explicitly about Jesus, the chapter describes divine authority and the unfolding of God's will which is associated with Christ. The chapter emphasizes obedience, prophecy, and understanding God's will, promoting moral behavior. The imagery conveys the importance of God's word and its bitter-sweet impact on those who receive it.",
+      "chapter": 10
+    },
+    {
+      "dignity_score": 5,
+      "christ_centered_score": 7,
+      "moral_score": 7,
+      "invitation": "The chapter invites readers to recognize God's ultimate reign and the triumph of good over evil, emphasizing the judgment and salvation found in Christ. It calls for faithfulness and perseverance in the face of adversity, promising ultimate victory.",
+      "rationalization": "The language, while symbolic and sometimes violent in description, focuses on divine judgment and the ultimate victory of God's Kingdom, suggesting a degree of reverence for spiritual concepts (score of 5). The narrative centers on themes of prophecy, divine intervention, and the fulfillment of God's plan, directly referencing God's authority and the eventual reign of Christ (score of 7). The text underscores themes of reward for the righteous and punishment for the wicked, promoting moral behavior by illustrating consequences (score of 7).",
+      "chapter": 11
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 9,
+      "moral_score": 8,
+      "invitation": "The chapter invites readers to find salvation through Christ and to remain faithful in the face of persecution, ultimately overcoming evil through faith and testimony.",
+      "rationalization": "The language, while symbolic, is respectful in its portrayal of the woman and her child, while condemning the dragon (Satan). The text centers heavily on the role of Christ, referencing his ruling power and the overcoming of evil through the 'blood of the Lamb.' The chapter encourages virtuous living through themes of faith, perseverance, and resistance to evil, offering guidance to those who uphold the commandments of God.",
+      "chapter": 12
+    },
+    {
+      "dignity_score": 4,
+      "christ_centered_score": 6,
+      "moral_score": 7,
+      "invitation": "The chapter invites readers to discern the forces of evil and remain faithful, resisting the allure of the beast and its deceptive power. It calls for vigilance and understanding of spiritual warfare.",
+      "rationalization": "The language, while apocalyptic, doesn't attack individuals, but focuses on symbolic figures and forces, hence a moderate dignity score. The text alludes to a conflict between good and evil, which aligns with Christian themes, but doesn't directly focus on Jesus' teachings, thus a middling Christ-centered score. The moral score is high because it implicitly encourages resistance to evil, faithfulness, and discernment, promoting virtuous behavior and ethical decision-making, though in a complex, symbolic way. ",
+      "chapter": 13
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 9,
+      "moral_score": 9,
+      "invitation": "The chapter invites believers to remain faithful to God and Christ, offering a message of judgment for the wicked and reward for the righteous. It encourages perseverance in faith and obedience to God's commandments.",
+      "rationalization": "The text uses dignified language, focusing on spiritual realities and warnings without explicitly dehumanizing anyone (dignity 7). The chapter is highly Christ-centered; it prominently features the Lamb (Jesus) and speaks of judgment from Him and the blessings for those following Him (score 9). It strongly promotes virtuous living by calling for faith, obedience, avoiding wickedness, and enduring trials (score 9). The overall message is a call to remain faithful and fear God in the face of impending judgment.",
+      "chapter": 14
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 9,
+      "moral_score": 8,
+      "invitation": "The chapter invites the reader to acknowledge God's power and justice and to worship Him. It encourages believers to remain steadfast in their faith, even in the face of tribulation, and to celebrate their victory over evil.",
+      "rationalization": "The language is respectful, describing divine beings and events. The imagery, while intense, focuses on the wrath of God being poured out. The text's focus on God's judgment and the salvation of those who overcame the beast indirectly offers dignity to those who remain faithful. The core of the chapter centers on the fulfillment of God's promises through Christ, so it earns a high Christ-centered score. The moral score is high because the text emphasizes the importance of faith, worship, and righteous living, even in the face of suffering.",
+      "chapter": 15
+    },
+    {
+      "dignity_score": 3,
+      "christ_centered_score": 4,
+      "moral_score": 6,
+      "invitation": "The chapter invites the reader to watch and be ready, lest they be caught unprepared. It warns of impending judgment and encourages keeping one's garments clean to avoid shame.",
+      "rationalization": "The language is harsh and describes suffering, but it's directed at those who have aligned themselves with the 'beast' and worshipped its image, which lowers the dignity score. The text refers to God's wrath, indirectly touching on Christian principles of judgment and righteousness, giving it a moderate Christ-centered score. It implies a moral order where good will ultimately triumph, and the wicked will be punished, resulting in a medium-high moral score. The invitation to 'watch' and keep garments reflects a focus on preparedness and avoiding spiritual shortcomings.",
+      "chapter": 16
+    },
+    {
+      "dignity_score": 4,
+      "christ_centered_score": 7,
+      "moral_score": 7,
+      "invitation": "The chapter invites the reader to recognize and reject the corrupting influence of worldly power and to remain faithful to Christ. It calls for discernment, reminding the reader of the ultimate triumph of good over evil.",
+      "rationalization": "The language uses strong imagery of a 'whore' and a 'beast,' which is not particularly dignified. The text centers around a symbolic struggle between good (Christ) and evil (the 'whore' and the 'beast'), directly referencing the ultimate victory of the Lamb. It encourages moral living by warning against the temptations of worldly power and the importance of remaining faithful to God and resisting evil.",
+      "chapter": 17
+    },
+    {
+      "dignity_score": 4,
+      "christ_centered_score": 5,
+      "moral_score": 8,
+      "invitation": "The chapter invites readers to separate themselves from the evils of Babylon and its corrupting influence, ultimately to avoid sharing in its judgment. It also invites the reader to consider the consequences of greed and sin.",
+      "rationalization": "The language, while powerful, focuses on judgment and destruction which lowers the dignity score. The indirect references to God's justice and the rejection of evil connect to Christian principles, earning a moderate Christ-centered score. The chapter strongly condemns sin, particularly greed and idolatry, encouraging virtuous living by portraying the dire consequences of such actions, resulting in a high moral score. The consistent theme of separation from sin, combined with warnings about idolatry and calls for God's vengeance, offers a clear directive for readers.",
+      "chapter": 18
+    },
+    {
+      "dignity_score": 5,
+      "christ_centered_score": 10,
+      "moral_score": 8,
+      "invitation": "The chapter invites the reader to worship God and participate in the ultimate triumph of good over evil, looking forward to the marriage supper of the Lamb. It also implicitly encourages believers to remain faithful and uphold righteous principles.",
+      "rationalization": "The language is generally respectful of God and the saints, though it does depict violent imagery in the defeat of evil. This violent imagery lowers the dignity score slightly. The text is overwhelmingly Christ-centered, explicitly identifying Jesus as the central figure and the 'Word of God.' Moral teachings are prominent, emphasizing righteousness, justice, and the rewards of faith, thus earning a high moral score.",
+      "chapter": 19
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 9,
+      "moral_score": 8,
+      "invitation": "The chapter invites readers to remain faithful to Christ, even unto death, and to participate in the eventual triumph of good over evil. It also implicitly invites a life of piety and righteousness in preparation for the final judgment.",
+      "rationalization": "The language is respectful, describing events in a narrative format without directly attacking any group. The text heavily focuses on Christ, His reign, and the ultimate defeat of Satan. The chapter promotes virtuous living by emphasizing the rewards for the righteous and the punishments for the wicked. The invitation is present throughout the text, urging people to make the right choices so they can be saved.",
+      "chapter": 20
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to strive for a life of faith and righteousness, promising eternal life in the new Jerusalem. It encourages believers to overcome the world and inherit all things in the presence of God.",
+      "rationalization": "The language, while evocative, focuses on the beauty and glory of a new creation, offering hope and comfort. It describes the rewards for the faithful and the consequences for the unrighteous, without being demeaning. The core of the text directly refers to Jesus Christ and his role as the Lamb, the light of the city. It centers on his promise of eternal life to those who believe. The text provides clear moral guidance, outlining the characteristics of those who will inherit the new heaven and new earth, urging ethical behavior and rejecting evil.",
+      "chapter": 21
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 10,
+      "moral_score": 10,
+      "invitation": "The chapter invites the reader to accept Jesus Christ and the free gift of eternal life. It urges believers to keep God's commandments and to await Christ's return.",
+      "rationalization": "The language, though apocalyptic, offers dignity through its descriptions of a restored creation and the promise of eternal life. The text explicitly and frequently references Jesus Christ, emphasizing his role as the Alpha and Omega, the returning Lord, and the source of salvation. It strongly advocates for virtuous living by encouraging obedience to God's commandments, warning against sin, and promising rewards for righteous actions.",
+      "chapter": 22
+    }
+  ]
+}

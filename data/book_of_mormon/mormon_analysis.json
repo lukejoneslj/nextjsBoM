@@ -1,0 +1,77 @@
+{
+  "book": "Mormon",
+  "chapters": [
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 7,
+      "moral_score": 8,
+      "invitation": "The chapter invites the reader to learn from past mistakes and to strive for righteousness. It encourages readers to recognize the consequences of wickedness and the blessings of faith.",
+      "rationalization": "The language is respectful and straightforward, earning a 6 on the dignity scale. It references the Lord and the goodness of Jesus, indicating a Christ-centered focus, therefore earning a 7. The text explicitly condemns wickedness and highlights the loss of spiritual gifts due to iniquity, resulting in a moral score of 8. This chapter teaches the importance of obedience, repentance, and faith, which are all characteristics of a Christ-centered life.",
+      "chapter": 1
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 6,
+      "moral_score": 8,
+      "invitation": "The chapter invites readers to reflect on the consequences of wickedness and the importance of repentance. It also implicitly encourages readers to strive for righteousness and seek the Lord.",
+      "rationalization": "The dignity score is moderate because while there is discussion of war and violence, the text doesn't dehumanize the Lamanites outright, focusing more on the general wickedness. The Christ-centered score is a 6 because there are references to repentance and the Lord's mercy, core principles of Christianity, but Jesus' name is not directly mentioned. The moral score is high, emphasizing the consequences of sin and the importance of repentance, which aligns with Christian principles of morality. The invitation encourages readers to consider their own lives and strive for moral improvement.",
+      "chapter": 2
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 9,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to repent, believe in the gospel of Jesus Christ, and prepare for the judgment seat of Christ. It encourages reflection on personal actions and spiritual growth.",
+      "rationalization": "The language, while describing conflict, is generally respectful in its tone and purpose. It focuses on explaining events and the moral failings of the Nephites. The text is highly Christ-centered, emphasizing the Lord's teachings, the importance of repentance, and the ultimate judgment by Christ. The chapter strongly promotes moral living by highlighting the consequences of wickedness and the importance of following God's commandments. It presents clear examples of virtuous behavior (Mormon's actions) and the negative consequences of sin.",
+      "chapter": 3
+    },
+    {
+      "dignity_score": 5,
+      "christ_centered_score": 4,
+      "moral_score": 8,
+      "invitation": "The chapter invites readers to reflect on the destructive consequences of wickedness, war, and the disregard for God's commandments. It encourages repentance and a commitment to righteous living to avoid similar destruction.",
+      "rationalization": "The language, while describing violence, isn't overly dehumanizing. It focuses on the actions and consequences, not necessarily the inherent worth of the people. There are indirect references to God's judgment and the need for repentance, hinting at Christian principles. The chapter strongly emphasizes the importance of avoiding wickedness, violence, and sacrificing others, making it a lesson in morality.",
+      "chapter": 4
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 9,
+      "moral_score": 9,
+      "invitation": "The chapter invites readers to consider the consequences of wickedness and unbelief, and ultimately to repent and embrace the gospel of Jesus Christ.",
+      "rationalization": "The language is respectful overall, focusing on explaining the events and their spiritual implications. The chapter strongly centers on Christ, referencing Him directly and discussing His role in salvation and the restoration of Israel. It promotes virtuous living, emphasizing repentance, humility, and faith as essential for salvation and avoiding destruction. The text acknowledges the pain of the events but seeks to offer hope and guidance through faith in Christ.",
+      "chapter": 5
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 9,
+      "moral_score": 10,
+      "invitation": "The chapter invites readers to reflect on the consequences of departing from God and to embrace repentance. It indirectly encourages readers to live a righteous life and seek the Savior's mercy.",
+      "rationalization": "The language, while sorrowful, is respectful toward the fallen and emphasizes their potential for eternal blessings. The text strongly testifies of Jesus Christ, directly referencing his role in judgment and offering salvation. It provides potent moral guidance, stressing the importance of righteousness, repentance, and seeking forgiveness. Mormon mourns for his people, highlighting the tragic outcomes of their choices and emphasizing the importance of Christ's teachings.",
+      "chapter": 6
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites the remnant of Israel to repent, believe in Jesus Christ, and embrace the gospel. It calls them to understand their heritage and participate in the redemption offered through Christ.",
+      "rationalization": "The language, while direct, addresses a specific group with the aim of spiritual guidance and understanding. It emphasizes repentance, faith in Christ, and the blessings of the gospel. The tone is instructional and hopeful. It calls for transformation and a new way of life, which is inherently dignified.",
+      "chapter": 7
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 9,
+      "moral_score": 9,
+      "invitation": "Moroni invites readers to consider the prophecies and warnings contained in the record, encouraging them to examine their own lives and repent if necessary.",
+      "rationalization": "The language, while direct and at times critical, aims to correct behavior, not demean individuals. Moroni focuses on spiritual principles and the consequences of actions. The chapter frequently references Jesus Christ and his teachings, directly mentioning him and his disciples. This chapter strongly promotes virtuous living through commandments such as not smiting or judging, and warns against pride, greed, and immorality.",
+      "chapter": 8
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 10,
+      "moral_score": 10,
+      "invitation": "The chapter invites the reader to believe in Christ, repent, and live a virtuous life. It calls on readers to embrace faith, seek forgiveness, and strive for eternal salvation.",
+      "rationalization": "The language, while forceful, primarily focuses on conveying spiritual truths and warning against disbelief, thus maintaining a degree of respect (dignity score). The entire chapter revolves around Christ's role, the Atonement, and the importance of faith in him, resulting in a very high Christ-centered score. The text explicitly encourages virtuous living, warning against sin and promoting righteousness, thus achieving a high moral score. The overall focus is on embracing the principles of the Gospel to achieve salvation, offering specific actions to achieve this goal.",
+      "chapter": 9
+    }
+  ]
+}

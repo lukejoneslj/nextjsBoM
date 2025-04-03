@@ -1,0 +1,125 @@
+{
+  "book": "Ether",
+  "chapters": [
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 4,
+      "moral_score": 8,
+      "invitation": "The chapter invites the reader to learn about and ponder the history of a people who sought the Lord's guidance, and were ultimately led to a promised land. It indirectly invites the reader to seek the Lord's will and follow his commandments.",
+      "rationalization": "The language, while formal, is respectful and focuses on the actions of people seeking God's will, scoring a 7 for dignity. Although there is a focus on the Lord, there are no direct mentions of Christ or his atonement. Therefore, the Christ-centered score is a 4. The chapter emphasizes obedience, prayer, and following God's commands, resulting in a moral score of 8. The narrative highlights faith, obedience, and seeking divine guidance, encouraging readers to emulate these virtues in their own lives.",
+      "chapter": 1
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 8,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to recognize God's decrees and repent of iniquities to avoid the consequences of wickedness, specifically through the example of Jared's brother and the Jaredites. It calls on readers to serve God, which is a reference to Jesus Christ.",
+      "rationalization": "The language is generally respectful and explains the relationship between God and humanity. The narrative highlights the importance of serving God and the consequences of disobedience, offering a hopeful message of repentance. The text directly references the Lord, who is understood in the book to be Jesus Christ. The story details the importance of obedience and righteousness, and the promised blessings that come with that lifestyle.",
+      "chapter": 2
+    },
+    {
+      "dignity_score": 9,
+      "christ_centered_score": 10,
+      "moral_score": 10,
+      "invitation": "The chapter invites the reader to cultivate faith, seek a relationship with God, and strive for understanding. It encourages the reader to believe in Jesus Christ and to live a life worthy of God's presence.",
+      "rationalization": "The language is consistently respectful, even in moments of intense divine interaction. The narrative describes a profound and personal encounter between the brother of Jared and Jesus Christ, showing the Savior's willingness to reveal himself. The text directly quotes Jesus Christ identifying himself and His role as Redeemer. It emphasizes faith, humility, and reverence. It highlights Christ's attributes of love, mercy, and eternal salvation, all of which are virtues encouraged by its teachings.",
+      "chapter": 3
+    },
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 10,
+      "moral_score": 10,
+      "invitation": "The chapter invites the reader to come unto Christ, repent, believe in the gospel, and be baptized. It promises spiritual blessings and knowledge to those who do so.",
+      "rationalization": "The language is highly respectful, using phrases such as 'the Lord said unto me' and directly quoting Jesus Christ. It offers dignity by presenting a path to spiritual growth for all people. The entire chapter centers on Christ's teachings, revelations, and the promise of salvation through faith in him. The moral teachings are explicit, emphasizing repentance, faith, baptism, and virtuous living as essential for spiritual growth and blessings.",
+      "chapter": 4
+    },
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 9,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to consider the truthfulness of the words recorded and to accept the testimony of the witnesses. It also invites the reader to repent and come unto the Father through Jesus Christ.",
+      "rationalization": "The language is respectful and authoritative, setting a tone of instruction rather than condemnation, thus earning a high dignity score. The text centers around the power of God, the Father, the Son, and the Holy Ghost, explicitly mentioning Jesus and his role in salvation, meriting a high Christ-centered score. The chapter strongly encourages virtuous living by emphasizing repentance, faith in Christ, and the importance of establishing truth through witnesses, thus receiving a high moral score.",
+      "chapter": 5
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 6,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to contemplate the faith, perseverance, and humility of the Jaredites as they journeyed to the promised land and established a society. It calls for reflection on the importance of gratitude, seeking divine guidance, and striving for virtuous leadership.",
+      "rationalization": "The language used, though archaic, is consistently respectful and focuses on the actions and beliefs of the people. While there isn't a direct mention of Christ, the dependence on the Lord, the praising of Him, and the blessings received imply a faith in a higher power, mirroring some Christian themes. The text strongly promotes moral values like humility, gratitude, obedience, and righteous leadership, making it score high in moral guidance. The lack of explicit mentions of Christ prevent higher scores.",
+      "chapter": 6
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 5,
+      "moral_score": 8,
+      "invitation": "This chapter invites the reader to reflect on the cyclical nature of righteousness and wickedness, and to learn from the consequences of both. It encourages readers to strive for righteous leadership and personal repentance.",
+      "rationalization": "The language generally maintains a neutral tone, avoiding insults or dehumanization, which contributes to the dignity score. While the text doesn't explicitly mention Christ, the emphasis on righteousness, repentance, and the Lord's guidance reflects Christian principles. The moral score is high due to the clear emphasis on virtuous behavior, the consequences of wickedness, and the positive outcomes associated with righteous leadership and repentance, such as peace and prosperity.",
+      "chapter": 7
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 5,
+      "moral_score": 9,
+      "invitation": "The chapter invites readers to reject secret combinations and to repent of sins to avoid destruction. It encourages vigilance against evil and a pursuit of righteousness.",
+      "rationalization": "The language is generally respectful, focusing on warning and instruction rather than dehumanization, earning a score of 6. The chapter indirectly references Christian principles, such as condemning murder and promoting repentance, but it does not directly mention Christ, resulting in a score of 5. The text strongly emphasizes moral teachings against secret combinations, murder, and wickedness, urging readers toward righteousness, earning a score of 9. The chapter's overall message is a strong appeal to avoid sin and build good character.",
+      "chapter": 8
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 4,
+      "moral_score": 8,
+      "invitation": "The chapter invites the reader to learn about the consequences of wickedness, the importance of repentance, and the blessings of righteous living.",
+      "rationalization": "The language is respectful in its storytelling, although it describes violence and betrayal. The text contains indirect references to God's mercy and judgment, aligning it with some Christian principles. The chapter strongly emphasizes moral teachings through examples of good and bad behavior, highlighting the importance of righteousness and repentance, particularly in the face of hardship and famine. The story depicts a cycle of sin, destruction, repentance, and eventual blessings for those who turn to God.",
+      "chapter": 9
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 5,
+      "moral_score": 8,
+      "invitation": "The chapter invites the reader to reflect on the cyclical nature of righteousness, prosperity, wickedness, and destruction. It encourages readers to learn from the examples of both righteous and wicked leaders, seeking to emulate the good and avoid the bad.",
+      "rationalization": "The language, while simple, avoids dehumanizing language and focuses on describing events and behaviors. While not explicitly Christ-centered, the chapter implicitly values following the Lord and righteous leadership which is a Christian principle. The narrative offers strong moral teachings by contrasting righteous and wicked behaviors and their consequences. The chapter uses a narrative structure to teach the reader how to be a good person by showing the impact choices make and what they lead to.",
+      "chapter": 10
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 5,
+      "moral_score": 8,
+      "invitation": "The chapter invites readers to repent of their wickedness and turn to the Lord, warning of the consequences of rejecting prophets and embracing iniquity. It implicitly encourages seeking righteous leadership and listening to divine guidance.",
+      "rationalization": "The language is generally respectful, narrating events without using dehumanizing or mocking language. The text indirectly references Christian principles through its emphasis on repentance and divine judgment, though it does not explicitly mention Christ. The moral score is high because the chapter strongly emphasizes the consequences of wicked behavior, the importance of repentance, and the blessings that come from following the Lord's guidance. The narrative focuses on the rise and fall of civilizations based on moral choices.",
+      "chapter": 11
+    },
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 10,
+      "moral_score": 10,
+      "invitation": "The chapter invites readers to cultivate faith, hope, and charity. It encourages seeking Jesus Christ and striving for virtuous living to inherit eternal life.",
+      "rationalization": "The language is respectful and emphasizes the importance of faith, humility, and love. It consistently speaks of seeking to understand and grow. This chapter is entirely focused on Jesus Christ, his role as Savior, and the essential doctrines of the Gospel. It directly references his atonement and the blessings associated with it. The chapter's teachings strongly promote virtuous living by emphasizing faith, hope, and charity as essential qualities. It encourages righteous behavior by highlighting the importance of humility, seeking God's grace, and striving for a better world.",
+      "chapter": 12
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 8,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to consider the consequences of rejecting prophetic warnings and to strive for repentance and righteous living. It also invites believers to look forward to the New Jerusalem and the fulfillment of God's covenants.",
+      "rationalization": "The language, while describing violence, maintains a respectful tone towards the characters, making this a 6 for dignity. There are clear references to Christ, specifically mentioning the 'blood of the Lamb' and the promise of the New Jerusalem, giving it an 8. The chapter strongly emphasizes repentance, the consequences of sin, and the importance of building a holy city, resulting in a 9 for morality. The overall theme of the chapter is to repent and seek righteousness.",
+      "chapter": 13
+    },
+    {
+      "dignity_score": 4,
+      "christ_centered_score": 2,
+      "moral_score": 6,
+      "invitation": "The chapter invites the reader to consider the consequences of wickedness and the dangers of violence, encouraging them to choose peace and righteousness. It serves as a warning to avoid the paths of destruction demonstrated by the Jaredites.",
+      "rationalization": "The language, while not intentionally malicious, describes brutal warfare and widespread death, which dehumanizes the characters involved and warrants a low dignity score. The text makes no direct references to Christ or his teachings; therefore, it has a low Christ-centered score. The chapter strongly condemns violence, treachery, and wickedness, reflecting an emphasis on good behavior, making it receive a middling moral score. While the text focuses on negative examples, it implicitly calls for the reader to avoid those destructive behaviors.",
+      "chapter": 14
+    },
+    {
+      "dignity_score": 4,
+      "christ_centered_score": 5,
+      "moral_score": 8,
+      "invitation": "The chapter invites the reader to reflect on the consequences of war, pride, and the rejection of divine guidance. It prompts introspection regarding personal repentance and seeking peace.",
+      "rationalization": "The language, while recounting a brutal war, does not dehumanize the characters but also doesn't focus on positive virtues. There is a clear understanding that war is a result of their wickedness and pride. The consequences of their actions are portrayed, emphasizing the futility of their actions. The chapter indirectly points toward a need for a savior, although it does not directly mention Jesus Christ, instead pointing to the need for humility and seeking guidance from a higher power and the consequences of not following the prophets. It offers a strong moral lesson about the consequences of sin and the importance of repentance and seeking peace.",
+      "chapter": 15
+    }
+  ]
+}

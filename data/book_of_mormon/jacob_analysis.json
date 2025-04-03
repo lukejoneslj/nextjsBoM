@@ -1,0 +1,61 @@
+{
+  "book": "Jacob",
+  "chapters": [
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 9,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to believe in Jesus Christ, repent of sins, and strive for virtuous living. It encourages seeking God's goodness and avoiding actions that could lead to spiritual destruction.",
+      "rationalization": "The language is respectful, focusing on teaching and persuasion rather than direct condemnation (Dignity Score). The text repeatedly references Christ, his kingdom, and the need to partake of God's goodness, showcasing its central focus (Christ-centered Score). The chapter strongly emphasizes repentance, avoiding wickedness, and the importance of teaching the word of God, which promotes ethical behavior (Moral Score).",
+      "chapter": 1
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 8,
+      "moral_score": 10,
+      "invitation": "The chapter invites the reader to repent of pride and sexual immorality, to seek the kingdom of God first, and to live a life of charity and faithfulness. It also invites readers to listen to the word of the Lord and keep His commandments.",
+      "rationalization": "The language is respectful, despite addressing serious sins. Jacob expresses his love for the people and his sadness at having to rebuke them. The chapter frequently references God and the commandments, pointing to the importance of a relationship with God. The text directly calls for repentance, a key principle of Christ's teachings, and references God's judgements. It offers strong, direct moral teachings. The chapter outlines clear behaviors which are aligned with living a life that is in accordance with God's commandments.",
+      "chapter": 2
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 6,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to repent of their sins, purify their hearts, and turn to God. It implicitly urges readers to emulate the righteousness of the Lamanites in observing commandments.",
+      "rationalization": "The language is largely respectful, although there is a strong condemnation of sin. The text refers to the 'pleasing word of God' and encourages seeking God's love, which alludes to Christ. The moral teachings are strong, emphasizing repentance, fidelity, and the dangers of sin to avoid destruction.",
+      "chapter": 3
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to be reconciled to God through the Atonement of Jesus Christ. It also encourages the reader to seek knowledge of Christ, the resurrection, and the world to come.",
+      "rationalization": "The language is respectful and seeks to explain complex spiritual ideas, earning it a dignity score of 7. The entire chapter is focused on Jesus Christ, his role as a foundation, and the Atonement, resulting in a Christ-centered score of 10. The text strongly encourages virtuous living by emphasizing faith, hope, and seeking counsel from God, hence a moral score of 9. The chapter's focus on spiritual principles and the Atonement directly addresses the reader's spiritual well-being.",
+      "chapter": 4
+    },
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 8,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to participate in the Lord's work of gathering and nurturing his people, striving for good fruit and enduring to the end. It implicitly calls for repentance, diligence, and faithfulness in the pursuit of spiritual growth.",
+      "rationalization": "The language is generally respectful, using a parable to explain complex spiritual concepts. It avoids direct attacks or dehumanizing language, instead portraying the Lord with compassion and concern. The parable itself is allegorical of Christ's work and the covenant people. The core message centers around the actions of a vineyard owner, representing Christ, and the responsibility of the servant to act upon his instructions, demonstrating faith and obedience, as well as the importance of nurturing and preserving good fruit. This chapter strongly promotes virtuous living through diligence, obedience, and enduring to the end.",
+      "chapter": 5
+    },
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 10,
+      "moral_score": 10,
+      "invitation": "The chapter invites the reader to repent, cleave unto God, and enter the strait gate, striving for eternal life. It encourages a life of virtuous living and acceptance of Christ's atonement.",
+      "rationalization": "The language, while urgent, is respectful and seeks to persuade through reasoning and appeals to mercy. The chapter frequently mentions 'beloved brethren' and emphasizes God's love. It warns against hardening hearts and mocks, but ultimately seeks to elevate. The text repeatedly references and centers on Christ and his plan of redemption. It directly teaches repentance, turning to God, and living a life worthy of eternal life, encouraging the reader to embrace righteous behaviors. ",
+      "chapter": 6
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to strengthen their faith in Jesus Christ and to be wary of false teachings. It encourages readers to study the scriptures and seek spiritual guidance.",
+      "rationalization": "The language used is generally respectful, with Jacob engaging in debate rather than personal attacks. The central theme revolves around the doctrine of Christ, with Sherem's denial and subsequent confession of Christ. The chapter strongly advocates for righteous living, emphasizing the consequences of sin and the importance of repentance, while illustrating themes of forgiveness and faith.",
+      "chapter": 7
+    }
+  ]
+}

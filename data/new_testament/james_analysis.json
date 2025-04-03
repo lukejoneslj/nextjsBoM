@@ -1,0 +1,37 @@
+{
+  "book": "James",
+  "chapters": [
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 6,
+      "moral_score": 10,
+      "invitation": "The chapter invites readers to find joy in trials, seek wisdom from God, and to live a life of faith, obedience, and good works. It encourages readers to be doers of the word, not just hearers.",
+      "rationalization": "The language is respectful and encouraging, providing guidance rather than condemnation, thus earning a high dignity score. While the chapter focuses on moral principles and a relationship with God, it doesn't explicitly center on the person of Christ, giving a moderate Christ-centered score. The chapter's emphasis on patience, wisdom, faith, controlling one's tongue, and helping those in need demonstrates a strong focus on virtuous living. Therefore, it is a high moral score.",
+      "chapter": 1
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 6,
+      "moral_score": 9,
+      "invitation": "The chapter invites readers to control their speech, cultivate wisdom from above, and live a life of peace, mercy, and good works.",
+      "rationalization": "The text emphasizes the importance of controlling the tongue and its potential for harm, thus showing respect for others. While not explicitly mentioning Christ, it implicitly references Christian principles through the call for pure, peaceable, and merciful behavior. The moral score is high because the chapter directly teaches ethical conduct, highlighting the importance of virtuous actions and attitudes such as meekness, gentleness, and seeking peace.",
+      "chapter": 3
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 5,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to submit to God, resist the devil, and draw near to God. It encourages humility, repentance, and righteous living to experience God's grace and favor.",
+      "rationalization": "The language is direct and at times uses strong pronouncements, yet the overall tone aims to correct behavior rather than personally attack. While not explicitly mentioning Christ\u2019s name consistently, the text strongly references Christian principles of humility, grace, and resisting temptation. The chapter strongly emphasizes moral behavior, detailing specific sins and offering clear guidance on how to live a virtuous life, with a focus on introspection and right relationships.",
+      "chapter": 4
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 6,
+      "moral_score": 9,
+      "invitation": "The chapter invites readers to practice patience, avoid injustice, and seek spiritual healing through prayer and confession. It encourages ethical behavior and warns against the dangers of wealth and oppression.",
+      "rationalization": "The language uses strong condemnation of the wealthy and their actions, placing the dignity score at a moderate level. While not explicitly focused on Christ's direct teachings, the chapter emphasizes Christian virtues like patience, humility, and faith in prayer. The encouragement of ethical behavior, justice, and spiritual practices elevates the moral score, highlighting the importance of living a virtuous life through faith and community.",
+      "chapter": 5
+    }
+  ]
+}

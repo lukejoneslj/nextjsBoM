@@ -1,0 +1,133 @@
+{
+  "book": "Helaman",
+  "chapters": [
+    {
+      "dignity_score": 4,
+      "christ_centered_score": 2,
+      "moral_score": 6,
+      "invitation": "The chapter invites readers to reflect on the dangers of internal strife and the importance of righteous leadership to protect and provide for a community. It also invites readers to avoid hatred and revenge.",
+      "rationalization": "The language, while not overtly hateful, describes violence and betrayal, which lowers the dignity score. The text doesn't directly mention Christ or his teachings, resulting in a low Christ-centered score. The chapter emphasizes the consequences of bad decisions and the importance of unity. The moral score is higher as it illustrates the downfall of those who choose violence and betrayal and rewards unity.",
+      "chapter": 1
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 4,
+      "moral_score": 8,
+      "invitation": "The chapter invites the reader to recognize the dangers of secret combinations and to choose righteousness over wickedness. It implicitly encourages readers to be vigilant against evil and to uphold justice.",
+      "rationalization": "The language is generally respectful, narrating events without excessive judgment, though the descriptions of the villains are harsh. The text mentions concepts of murder and betrayal, but it focuses on the importance of justice and right actions. The chapter indirectly references Christian principles through the themes of justice and exposing evil, but does not focus on Christ specifically. The chapter is rich in moral instruction, highlighting the importance of honesty, loyalty, and the consequences of evil actions like murder, robbery, and secret combinations.",
+      "chapter": 2
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 9,
+      "moral_score": 10,
+      "invitation": "The chapter invites readers to seek repentance, find joy in Christ, and strive for humility and righteousness. It encourages readers to recognize the open gate to heaven through Jesus Christ and to choose a life of faith and devotion.",
+      "rationalization": "The language is generally respectful, even when describing negative behaviors like pride and persecution. The text emphasizes Christ's role in salvation and the open invitation to believe in him. The chapter is filled with strong moral teachings, advocating for humility, righteousness, and a rejection of wickedness. The focus on repentance, Christ, and virtuous living leads to a high score in these categories.",
+      "chapter": 3
+    },
+    {
+      "dignity_score": 5,
+      "christ_centered_score": 6,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to repent of wickedness, seek spiritual guidance, and strive for a righteous life. It implies that turning away from wickedness brings strength and prosperity.",
+      "rationalization": "The language used, while describing conflict, isn't overtly dehumanizing, earning a 5. The text's focus on repentance and the consequences of sin alludes to core Christian principles, resulting in a score of 6. Strong emphasis is placed on virtuous living, obedience to God's commandments, and avoiding sins, earning a score of 9. The overall message emphasizes the importance of living righteously and the consequences of sin.",
+      "chapter": 4
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 10,
+      "moral_score": 10,
+      "invitation": "The chapter invites the reader to build their foundation on Jesus Christ and repent, seeking salvation through Him. It encourages living a virtuous life, filled with faith and repentance.",
+      "rationalization": "The language used is generally respectful and avoids dehumanizing any group, scoring a 7. The text is heavily focused on Christ, his Atonement, and the principles of repentance, making it a 10 for Christ-centeredness. The chapter strongly promotes virtuous behavior, obedience to God's commandments, and the importance of spreading the gospel, resulting in a perfect moral score of 10. The chapter emphasizes seeking Christ, repenting of sins, and striving to live a righteous life.",
+      "chapter": 5
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 7,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to recognize the dangers of wickedness and the importance of righteousness. It also encourages turning to God and avoiding the traps of secret combinations and worldly riches.",
+      "rationalization": "The dignity score is moderate as the text condemns wickedness but does so with a degree of lamentation rather than overt dehumanization. It acknowledges the humanity of both Nephites and Lamanites. The Christ-centered score is high because it indirectly references Christian principles of repentance and righteousness. It also indirectly mentions the power of the Spirit. The moral score is high as the text clearly outlines moral principles, condemning wickedness, secret combinations, and worldly attachments while praising righteousness and faith. The chapter warns against specific sins and offers a call to action to follow Christ.",
+      "chapter": 6
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 6,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to repent of their sins and turn to God for forgiveness. It encourages a return to righteousness and warns against the consequences of wickedness.",
+      "rationalization": "The language is primarily directed at a group of people, with the goal of warning them to change their ways. While strong in its condemnation of sin, it offers a path to redemption. The chapter references the Lord and his judgments, pointing to a higher power and the need for obedience. The moral teachings are explicit and central to the narrative, strongly advocating for virtuous behavior.",
+      "chapter": 7
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 9,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to repent, turn to Christ, and embrace the teachings of the prophets. It warns against wickedness and the Gadianton secret combination and implores the audience to choose righteousness.",
+      "rationalization": "The dignity score is moderately high because while the text condemns sin, it also appeals to the people's reason and historical understanding. The core message, however, is rooted in love. The Christ-centered score is high as the chapter focuses heavily on prophetic witness of Jesus Christ, referencing Moses, Abraham, and other prophets, emphasizing the Messiah's coming and the importance of faith. The moral score is also high. It strongly condemns wickedness, encourages repentance, and outlines virtuous living through faith in Christ and obedience to God's commandments. The chapter calls for a rejection of evil and embraces righteousness.",
+      "chapter": 8
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 4,
+      "moral_score": 8,
+      "invitation": "The chapter invites readers to believe in divine power and prophetic abilities. It also invites readers to embrace repentance and acknowledge God's truth, even when faced with disbelief and persecution.",
+      "rationalization": "The language used in the chapter is respectful, explaining the events without dehumanizing anyone. There are indirect references to Christian principles by acknowledging God's role and prophets. The chapter strongly encourages moral behavior through themes of justice, truth, and recognizing good from evil. The narrative focuses on justice and truth and warns of the consequences of sin while demonstrating that God is the ultimate source of truth.",
+      "chapter": 9
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 8,
+      "moral_score": 9,
+      "invitation": "The chapter invites readers to repent and turn to God to avoid destruction, and to remain steadfast in faith and obedience, even when faced with opposition.",
+      "rationalization": "The dignity score is a 6 because while the text contains warnings of destruction, it does not dehumanize. It speaks directly about God's will and the consequences of actions. The Christ-centered score is an 8, as the narrative demonstrates a direct reliance on God and showcases principles from the Sermon on the Mount such as repentance. The moral score is a 9 because it heavily emphasizes repentance, obedience, and following God's commandments as a path towards salvation and avoiding destruction. The text emphasizes obedience and the avoidance of sin.",
+      "chapter": 10
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 7,
+      "moral_score": 9,
+      "invitation": "This chapter invites the reader to reflect on their actions and to turn to God in times of hardship, seeking repentance and striving for virtuous living.",
+      "rationalization": "The language is generally respectful, detailing events without excessive judgment, earning it a 6. The text frequently mentions God, Nephi's prayers, and the eventual peace that follows repentance, pointing to Christ's role in salvation and earning it a 7. The narrative emphasizes repentance, humility, and the consequences of wickedness, promoting virtuous living, and thus earning a 9. The chapter encourages readers to examine their lives, identify areas needing improvement, and seek a closer relationship with God through faith and repentance.",
+      "chapter": 11
+    },
+    {
+      "dignity_score": 5,
+      "christ_centered_score": 6,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to recognize their own tendency toward pride and forgetfulness of God, and to repent and turn to Him.",
+      "rationalization": "The language contains strong condemnations of human failings like pride and ingratitude, which slightly diminishes the dignity score. The text underscores the importance of repentance which points towards Christ\u2019s role as Savior, thus the Christ-centered score is moderate. The chapter is filled with strong moral teachings about humility, repentance, and giving ear to God's counsels, leading to a high moral score.",
+      "chapter": 12
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 8,
+      "moral_score": 10,
+      "invitation": "The chapter invites the reader to repent of their sins, turn to the Lord, and embrace righteousness. It also warns against pride, materialism, and rejecting the Lord's prophets.",
+      "rationalization": "The dignity score is 6 because Samuel, the Lamanite, speaks directly and honestly to the people, but the overall tone focuses on warning and condemnation, which can be seen as less dignified. The text is highly Christ-centered (8) as it frequently mentions the importance of repentance and faith in Jesus Christ, including his future suffering and sacrifice. The moral score is a 10 because the chapter outlines clear moral teachings against wickedness, pride, and materialism and encourages virtuous living through repentance and faith. The invitation is a direct call to repentance and a warning against the consequences of sin, which is a central theme of the Book of Mormon.",
+      "chapter": 13
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to repent of their sins and believe in Jesus Christ. This belief is presented as the path to everlasting life and salvation through his atonement.",
+      "rationalization": "The language used is respectful and aimed at conveying a message of salvation. The chapter centers on the coming of Jesus Christ, his signs of birth and death, and his role as the redeemer. The text offers direct teachings on repentance, choosing good over evil, and the consequences of these choices, providing strong moral guidance for virtuous living.",
+      "chapter": 14
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 9,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to repent and embrace the teachings of Jesus Christ in order to avoid destruction and receive blessings. It encourages the reader to emulate the faith and actions of the converted Lamanites.",
+      "rationalization": "The language is primarily respectful, though it does express judgement on actions. The chapter is highly Christ-centered, emphasizing faith in Christ, repentance, and the atonement. Moral guidance is abundant, promoting repentance, obedience, forgiveness, and the pursuit of knowledge. The focus is on choosing righteousness.",
+      "chapter": 15
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 9,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to believe in Jesus Christ, repent of their sins, and live a virtuous life. It also invites the reader to examine their own hearts and avoid the pitfalls of pride and unbelief.",
+      "rationalization": "The language of the text is generally respectful, focusing on descriptions of events and internal monologues. The chapter frequently references Jesus Christ, his teachings, and the fulfillment of prophecies regarding his coming. The moral score is high because the chapter emphasizes repentance, faith, obedience, and avoiding wickedness. The text warns against pride, unbelief, and the influence of Satan, encouraging readers to seek goodness and truth.",
+      "chapter": 16
+    }
+  ]
+}

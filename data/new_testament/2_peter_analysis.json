@@ -1,0 +1,29 @@
+{
+  "book": "2 Peter",
+  "chapters": [
+    {
+      "dignity_score": 9,
+      "christ_centered_score": 10,
+      "moral_score": 10,
+      "invitation": "The chapter invites readers to grow in faith, knowledge, and Christian virtues to attain a deeper relationship with Christ and ultimately, eternal life. It encourages readers to remember and apply the teachings of Christ to ensure their calling and election are secure.",
+      "rationalization": "The language is respectful and focuses on spiritual growth and encouragement, avoiding any attacks or dehumanizing language. The text is saturated with references to Jesus Christ, from the opening salutation to the description of His glory and the promise of eternal life. The chapter provides explicit moral teachings on adding virtues like faith, virtue, knowledge, temperance, patience, godliness, brotherly kindness, and charity to one's life. The focus on personal growth and the pursuit of Christian virtues reflects a high degree of moral guidance.",
+      "chapter": 1
+    },
+    {
+      "dignity_score": 4,
+      "christ_centered_score": 7,
+      "moral_score": 9,
+      "invitation": "The chapter invites readers to be vigilant against false teachers and to live a righteous life, warning of the consequences of turning away from the truth and embracing ungodliness.",
+      "rationalization": "The language, while condemning false teachers, uses strong terms like 'damnable heresies' and 'brute beasts,' which slightly lowers the dignity score. The text heavily relies on the teachings and principles of Jesus Christ, addressing salvation and the importance of the 'knowledge of the Lord and Saviour Jesus Christ', so the Christ-centered score is high. The chapter provides strong moral teachings by emphasizing righteous living, condemning sin, and urging readers to avoid the behaviors of the ungodly, which makes the moral score very high.",
+      "chapter": 2
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 9,
+      "moral_score": 10,
+      "invitation": "The chapter invites the reader to remember the words of the apostles and prophets and to live a life of godliness, looking forward to the coming of the Lord. It encourages steadfastness in faith and growth in the knowledge of Jesus Christ.",
+      "rationalization": "The language is respectful and addresses the audience as 'beloved,' showing care and concern. The focus is on encouraging believers and warning against those who scoff at faith. The text centers around the teachings of Jesus and the promises of the Lord, referencing the end times and the second coming. The chapter strongly emphasizes virtuous living, urging readers to live righteously, be diligent, and grow in grace.",
+      "chapter": 3
+    }
+  ]
+}

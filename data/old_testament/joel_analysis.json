@@ -1,0 +1,29 @@
+{
+  "book": "Joel",
+  "chapters": [
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 4,
+      "moral_score": 8,
+      "invitation": "The chapter invites the reader to recognize and lament the devastation caused by the locust plague, and to turn to God for help through prayer, fasting, and repentance.",
+      "rationalization": "The language is generally respectful, addressing various groups (old men, drunkards, priests) with concern and warning. The text doesn't directly mention Jesus, but the call for repentance and reliance on God's house indirectly points toward Christian principles. It strongly promotes virtuous living by emphasizing the consequences of sin, the importance of turning to God in times of trouble, and the need for communal lament and repentance. The chapter focuses on recognizing suffering and seeking spiritual renewal.",
+      "chapter": 1
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 4,
+      "moral_score": 8,
+      "invitation": "The chapter invites the reader to repent and turn to God. It promises restoration and blessings for those who heed this call.",
+      "rationalization": "The language is respectful, primarily addressing the reader with calls to action and promises of future blessings, hence the dignity score of 6. While the text emphasizes repentance and God's mercy, it doesn't directly mention Jesus Christ, leading to a Christ-centered score of 4. The chapter strongly encourages virtuous living by promoting repentance, fasting, and seeking God's favor, resulting in a moral score of 8.",
+      "chapter": 2
+    },
+    {
+      "dignity_score": 4,
+      "christ_centered_score": 3,
+      "moral_score": 7,
+      "invitation": "The chapter invites readers to contemplate the coming judgment and the ultimate triumph of God, urging them to choose righteousness and anticipate a restored Jerusalem. It calls for a preparation for war, as well as an understanding that God will provide for his people.",
+      "rationalization": "The language in Joel 3 is primarily focused on judgment and retribution, which earns a low dignity score. It doesn't explicitly mention Jesus Christ, earning a low Christ-centered score, although the prophecies are fulfilled in the New Testament. There are strong calls for justice and an expectation of God to take care of his people, which offers strong moral guidance. The chapter's focus on God's judgment and eventual salvation, while not directly about Christ, lays the groundwork for a coming Savior. ",
+      "chapter": 3
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "book": "Matthew",
+  "chapters": [
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to accept Jesus Christ as the Messiah and savior of the world, emphasizing his lineage and divine conception.",
+      "rationalization": "The language is respectful and reverent, focused on a significant religious event. The chapter is strongly Christ-centered, detailing his lineage and divine conception. The text encourages virtuous living by highlighting the importance of faith, obedience, and the fulfillment of prophecy. It offers dignity to all by tracing Christ's lineage and presenting him as the savior.",
+      "chapter": 1
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 9,
+      "moral_score": 7,
+      "invitation": "The chapter invites readers to acknowledge Jesus as the King of the Jews and to worship him. It also encourages readers to recognize the protection and divine guidance provided by God.",
+      "rationalization": "The language is generally respectful, focusing on the birth and early life of Jesus. It directly centers on the person of Jesus Christ, detailing the events surrounding his birth and the reactions to it. The text contains several moral lessons such as the importance of faith, obedience to divine commands, and the consequences of evil. The narrative shows how God protects his son, and offers a hopeful conclusion.",
+      "chapter": 2
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 8,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to repent, confess sins, and prepare for the coming of the Kingdom of Heaven. It also implicitly invites belief in Jesus Christ as the one who will baptize with the Holy Ghost and fire.",
+      "rationalization": "The language of the chapter fluctuates. While John the Baptist's condemnation of the Pharisees and Sadducees uses strong language, the overall message centers on repentance and preparing for Christ's arrival. The text directly references Jesus Christ, foretelling his baptism and the importance of his ministry. The chapter strongly promotes moral teachings by emphasizing repentance, confession of sins, and producing good fruit, highlighting the necessity of virtuous living and righteous actions to avoid judgement.",
+      "chapter": 3
+    },
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to recognize Jesus as the Son of God, to follow his teachings, and to repent and embrace the Kingdom of Heaven. It implicitly encourages obedience to God, resisting temptation, and spreading the Gospel.",
+      "rationalization": "The language used is respectful and focuses on theological concepts, avoiding personal attacks. The text is entirely focused on the life and ministry of Jesus Christ, from his temptation to his preaching and calling of disciples. It offers strong moral guidance by depicting Jesus's resistance to temptation, emphasizing faith, and demonstrating compassion. The narrative implicitly models virtuous behavior and encourages readers to emulate Christ's actions and embrace his teachings.",
+      "chapter": 4
+    },
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 9,
+      "moral_score": 10,
+      "invitation": "The chapter invites the reader to embrace a life of righteousness, love, and forgiveness, modeled after the teachings of Jesus Christ. It calls believers to act as examples of Christ's teachings, leading others to God through good works.",
+      "rationalization": "The text promotes dignity by emphasizing compassion, mercy, and peacemaking, valuing all people. It is Christ-centered because it directly quotes Jesus teaching and presents him as the ultimate authority. The teachings emphasize love, forgiveness, and self-control, which promote virtuous behavior. The overall message is one of love, self-improvement, and spiritual elevation, demonstrating a high moral score.",
+      "chapter": 5
+    },
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 7,
+      "moral_score": 10,
+      "invitation": "The chapter invites the reader to prioritize their relationship with God and to act with humility and sincerity, focusing on internal righteousness over external displays. It calls on the reader to cultivate inner virtues and trust in God's provision.",
+      "rationalization": "The language used is respectful and promotes a higher spiritual calling, encouraging reflection and self-improvement, giving it a high dignity score. While not explicitly mentioning Jesus's name, the teachings are consistent with his overall message, offering a high christ-centered score. The chapter is filled with moral instructions on prayer, almsgiving, and fasting, which results in a high moral score. The text emphasizes the importance of internal transformation, humility, and faith, guiding the reader towards virtuous living and trust in God.",
+      "chapter": 6
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 8,
+      "moral_score": 10,
+      "invitation": "The chapter invites the reader to live a life of righteousness, judgment-free and according to Christ's teachings, building their life upon a foundation of faith and good works.",
+      "rationalization": "The language is generally respectful, albeit with strong condemnation of hypocrisy and false prophets, achieving a 6. The chapter is filled with teachings attributed to Jesus Christ, including warnings of judgment and the importance of doing the will of the Father, meriting an 8. The chapter is replete with explicit moral guidance on avoiding judgment, practicing generosity, discerning truth, and building a life on a foundation of faith, scoring a 10.",
+      "chapter": 7
+    },
+    {
+      "dignity_score": 9,
+      "christ_centered_score": 10,
+      "moral_score": 10,
+      "invitation": "The chapter invites the reader to believe in Jesus Christ as the Son of God and to follow his teachings. It also invites readers to emulate Christ's compassion and faith.",
+      "rationalization": "The language is respectful and focuses on the actions and teachings of Jesus, thus creating a high dignity score. The chapter is entirely centered on Jesus's actions, miracles, and teachings, resulting in a high Christ-centered score. The chapter strongly encourages virtuous living through Jesus's emphasis on faith, compassion, forgiveness, and the importance of putting spiritual matters first. This is reflected in the various healings, parables, and teachings, meriting a high moral score.",
+      "chapter": 8
+    },
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites readers to believe in Jesus Christ, repent of their sins, and follow his teachings of love, compassion, and forgiveness. It also encourages believers to spread the Gospel and to pray for more laborers.",
+      "rationalization": "The language used is respectful and focuses on teaching and healing. Jesus consistently shows compassion and offers dignity to those in need. The chapter centers entirely on Jesus, His actions, teachings, and claims of divinity. The moral teachings are strong, emphasizing mercy, faith, repentance, and the importance of helping others and the kingdom of heaven.",
+      "chapter": 9
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 10,
+      "moral_score": 10,
+      "invitation": "The chapter invites the reader to embrace the teachings of Jesus, to preach the gospel, and to live a life of faith and courage even in the face of persecution.",
+      "rationalization": "The language is generally respectful, offering guidance and instruction rather than condemnation. It speaks of valuing those who follow Jesus and emphasizes care for the vulnerable. The chapter is deeply Christ-centered, as it directly references Jesus's teachings, his role as the Messiah, and the importance of faith in him. The text strongly encourages virtuous living through commandments to love, to forgive, and to endure hardships for the sake of Christ.",
+      "chapter": 10
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to acknowledge Jesus as the Messiah and to accept his teachings, offering rest and ease to those who follow him.",
+      "rationalization": "The language is respectful as Jesus interacts with John the Baptist's disciples and speaks to the crowds. The text is highly Christ-centered, as it directly recounts Jesus's miracles and his self-declaration. It strongly promotes moral behavior by condemning those who reject Jesus' message and offering a path to rest through following him. Jesus offers an invitation to those burdened by life to find relief in him.",
+      "chapter": 11
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites readers to recognize Jesus as Lord, accept his teachings, and prioritize compassion and mercy. It challenges the reader to embrace the Kingdom of God through faith and righteous action.",
+      "rationalization": "The dignity score is high because while there is confrontation, Jesus often refrains from personal attacks and focuses on reasoning and teaching. The chapter is Christ-centered because Jesus's actions, teachings, and claims to divine authority are central to the narrative. The text promotes virtuous living through advocating for compassion, criticizing hypocrisy, and emphasizing the importance of spiritual discernment. Jesus's emphasis on doing good on the Sabbath, forgiveness, and the consequences of sin are strong moral teachings.",
+      "chapter": 12
+    },
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 10,
+      "moral_score": 10,
+      "invitation": "The chapter invites the reader to understand and embrace the teachings of Jesus, particularly those related to the Kingdom of Heaven. It encourages self-reflection, seeking understanding, and striving for righteous living.",
+      "rationalization": "Dignity Score: The language is respectful and uses parables to explain complex ideas without attacking or dehumanizing anyone. Christ-centered Score: This chapter is deeply Christ-centered, with Jesus as the central figure teaching about the Kingdom of Heaven and its principles, and explaining the meaning of his parables. Moral Score: The chapter strongly emphasizes moral teachings about good and evil, righteousness, and the consequences of our actions, using parables like the sower, the tares, and the treasure to illustrate these points.",
+      "chapter": 13
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites readers to recognize and follow Jesus as the Christ, who has power over death, nature, and illness, and to trust in his provision and teachings.",
+      "rationalization": "The language is generally respectful and focused on events and dialogues without explicitly attacking individuals (7). The chapter is highly Christ-centered, detailing Jesus' miracles, teachings, and the disciples' acknowledgement of his divine nature (10). The text strongly emphasizes moral virtues through its depiction of John the Baptist's integrity, Jesus' compassion, and the disciples' faith, teaching lessons about faithfulness and belief (9). It directly and indirectly invites belief in Christ and emulation of his example of compassion, prayer, and faith.",
+      "chapter": 14
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 9,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to examine their own hearts and prioritize inner purity over outward rituals. It also invites readers to have faith in Jesus' power to heal and provide for those in need.",
+      "rationalization": "The chapter includes direct quotes from Jesus and showcases his teachings. He corrects the Pharisees, highlighting hypocrisy, and ultimately teaches about the source of true defilement. Several verses center on Jesus' power to heal and provide. Furthermore, the chapter strongly encourages moral living by emphasizing the importance of inner purity and condemning actions that arise from the heart that are morally wrong.",
+      "chapter": 15
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to recognize Jesus as the Christ, the Son of God, and to follow him, even to the point of self-denial and taking up one's cross. It encourages faith in Jesus, understanding of His teachings, and a commitment to living a life that reflects His values.",
+      "rationalization": "The language in this chapter is primarily respectful, though Jesus does directly rebuke Peter and the Pharisees. The chapter is highly Christ-centered, with the pivotal confession of Peter identifying Jesus as the Christ and Son of God. The moral score is high due to the emphasis on faith, discipleship, recognizing Jesus's identity, and self-sacrifice. The chapter calls readers to a life dedicated to Christ and His teachings.",
+      "chapter": 16
+    },
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "This chapter invites readers to believe in Jesus Christ as the Son of God and to follow his teachings of faith, prayer, and compassion.",
+      "rationalization": "The language is respectful and portrays events with reverence, scoring high for dignity. The text is centered on Christ's divinity, transfiguration, and teachings, earning a perfect score in that category. The chapter emphasizes faith, healing, humility, and selfless actions, highlighting strong moral principles. It is an invitation to believe in Jesus and live a moral life.",
+      "chapter": 17
+    },
+    {
+      "dignity_score": 8,
+      "christ_centered_score": 10,
+      "moral_score": 10,
+      "invitation": "The chapter invites readers to humble themselves like children, value the vulnerable, seek reconciliation, and practice forgiveness without limit.",
+      "rationalization": "The language, while direct, is not demeaning, focusing on teaching and instruction. The chapter is explicitly centered on Jesus's teachings, including the nature of the Kingdom of Heaven and his role as the Savior. It strongly encourages virtuous behavior by emphasizing humility, compassion, forgiveness, and the importance of protecting the innocent. These virtues are central to Christ's teachings and offer dignity to all.",
+      "chapter": 18
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 9,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to follow Christ, embracing his teachings on marriage, wealth, and discipleship. It encourages a life of virtue, emphasizing the importance of the kingdom of heaven.",
+      "rationalization": "The language used is respectful and seeks understanding, particularly regarding marriage and wealth, contributing to a high dignity score. The chapter is strongly Christ-centered, featuring Jesus' teachings, parables, and interactions with his disciples. Moral teachings are central, as Jesus outlines commandments and offers guidance on attaining eternal life, leading to a high moral score. This chapter's focus is on Jesus's teachings, highlighting how to live a virtuous life and the importance of discipleship.",
+      "chapter": 19
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 9,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to embrace God's grace and generosity, even when it seems unfair by human standards, and to prioritize humility and service over personal gain or social status.",
+      "rationalization": "The parable of the workers in the vineyard demonstrates God's unconditional love and fairness, even to those who 'arrive late'. The language, while direct, is respectful and seeks to convey divine principles. Jesus' teachings on service and humility promote dignity by uplifting those often marginalized. The chapter centers directly around Christ's teachings, his impending sacrifice, and his compassion for the suffering, aligning with core Christian values. The emphasis on forgiveness, generosity, and selfless service underscores strong moral guidance that encourages virtuous living and prioritizes compassion.",
+      "chapter": 20
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites readers to accept Jesus as the Messiah and King and to live a life of faith, repentance, and obedience to God's teachings. It also implicitly invites readers to examine their own hearts and actions in relation to these teachings.",
+      "rationalization": "The language is generally respectful, although it contains strong rebukes towards the religious leaders. The chapter focuses entirely on the life and teachings of Jesus Christ, particularly his triumphal entry into Jerusalem and his confrontations with religious authorities. It promotes forgiveness and a love for all, directly referencing Christ's teachings throughout. The chapter promotes a high standard of ethics, condemning hypocrisy, encouraging faith, and emphasizing the importance of repentance and righteous living.",
+      "chapter": 21
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 9,
+      "moral_score": 9,
+      "invitation": "The chapter invites readers to accept the kingdom of heaven and its blessings. It encourages choosing righteousness over worldly pursuits and emphasizes the importance of loving God and neighbor.",
+      "rationalization": "The chapter uses parables to convey its message, demonstrating respect for the audience's ability to understand. It is centered around Jesus' teachings and actions, directly and indirectly testifying of Christ's importance. It contains strong moral teachings, such as the importance of loving God and neighbor, and avoiding the pitfalls of hypocrisy and greed.",
+      "chapter": 22
+    },
+    {
+      "dignity_score": 4,
+      "christ_centered_score": 9,
+      "moral_score": 9,
+      "invitation": "The chapter invites readers to reject hypocrisy, prioritize inner righteousness, and embrace humility. It calls for a sincere devotion to God and to live a life that reflects the teachings of Christ.",
+      "rationalization": "The language, while forceful and critical, lacks dehumanization, focusing on the hypocrisy of religious leaders. It does however attack moral character. The text is heavily Christ-centered, as it stems from the words of Jesus, and calls out actions that are in contrast to his teachings. The moral teachings are very strong, focusing on the importance of humility, honesty, and prioritizing righteous living over outward appearances.",
+      "chapter": 23
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to remain vigilant, to discern truth from falsehood, and to endure to the end. It encourages preparedness for the coming of Christ and a life of righteousness.",
+      "rationalization": "The language, while foretelling difficult times, is respectful and instructional (7). The chapter is thoroughly Christ-centered, focusing on his warnings about deception, his future coming, and the gathering of his elect (10). The text strongly promotes moral behavior, emphasizing the importance of enduring, watching, being ready, and serving faithfully (9). It offers comfort, hope, and guidance in preparing for the end times, which are directly connected to Christ.",
+      "chapter": 24
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 9,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to be prepared for the return of Christ by being vigilant, wise, and faithful in service, and to demonstrate love and compassion for others. Ultimately, it invites readers to inherit eternal life by following the teachings of Jesus.",
+      "rationalization": "The language used, while direct, focuses on explaining concepts and delivering warnings rather than directly attacking individuals. It presents parables, which aim to teach lessons. The chapter is centered around Christ's teachings about the kingdom of heaven and the final judgment, making it strongly Christ-centered. The text strongly promotes virtuous living through parables and direct instructions, like serving others. The chapter encourages readers to live a life of faith, good works, and preparedness for the return of Christ.",
+      "chapter": 25
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to contemplate the sacrifice of Jesus Christ and to reflect on the choices and actions of those involved in the events leading to his crucifixion. It encourages believers to live a life following Jesus's teachings and to be prepared for trials and tribulations.",
+      "rationalization": "The text, while describing betrayal and unjust treatment, largely avoids language that dehumanizes or incites violence (6). The chapter is overwhelmingly Christ-centered, focusing on Jesus's final days, his predictions, his teachings, his betrayal, his trial, and his declaration of divinity (10). The chapter contains a strong moral message, urging love, forgiveness, and righteous conduct, condemning betrayal and hypocrisy (9). It offers clear examples of good (Jesus's teachings and actions) and bad (Judas' betrayal and the actions of the religious leaders and the disciples) behaviors for the reader to discern and to follow.",
+      "chapter": 26
+    },
+    {
+      "dignity_score": 4,
+      "christ_centered_score": 10,
+      "moral_score": 8,
+      "invitation": "The chapter invites the reader to contemplate the sacrifice of Jesus Christ, accept his teachings, and recognize his divinity. It also implicitly invites readers to live a life of compassion, faith, and repentance.",
+      "rationalization": "The language, while conveying a significant narrative, describes acts of violence and mockery, hence the lower dignity score. The chapter is entirely centered on the life, trial, and crucifixion of Jesus Christ, therefore the highest christ-centered score. The chapter depicts both virtuous and unvirtuous actions, and ultimately presents Jesus as a model of compassion and self-sacrifice, leading to a high moral score. The story calls readers to examine their own beliefs and actions in light of Christ's example.",
+      "chapter": 27
+    },
+    {
+      "dignity_score": 7,
+      "christ_centered_score": 10,
+      "moral_score": 9,
+      "invitation": "The chapter invites the reader to believe in the resurrection of Jesus Christ and to spread the Gospel. It calls for faith, obedience, and action, prompting individuals to share the good news with others.",
+      "rationalization": "The language is largely respectful, conveying a message of hope and faith. It avoids derogatory or inflammatory language. This chapter is intensely Christ-centered, focusing on the resurrection and Christ's authority. The narrative centers entirely on Jesus and his actions. The text provides strong moral guidance, promoting faith, obedience, and the spread of the Gospel, which are considered virtuous actions. It offers an enduring model for how to live.",
+      "chapter": 28
+    }
+  ]
+}

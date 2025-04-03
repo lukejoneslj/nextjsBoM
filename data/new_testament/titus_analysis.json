@@ -1,0 +1,29 @@
+{
+  "book": "Titus",
+  "chapters": [
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 8,
+      "moral_score": 9,
+      "invitation": "The chapter invites readers to embrace sound doctrine, live virtuous lives, and identify and correct false teachings. It calls for the appointment of qualified leaders and the rejection of harmful practices.",
+      "rationalization": "The language, while direct, focuses on the qualities of leadership and the dangers of false teachings, avoiding personal attacks. It frequently mentions Jesus Christ and the Christian faith as the basis for moral standards. The chapter strongly emphasizes virtuous living through specific guidelines for church leaders and the condemnation of deceitful behavior. The text's focus is on the teachings of Christ and how these teachings apply to the lives of believers.",
+      "chapter": 1
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 8,
+      "moral_score": 9,
+      "invitation": "The chapter invites readers to live lives that reflect sound doctrine and Christ's teachings, seeking holiness and good works. It calls for specific behaviors from different groups, promoting moral conduct within the Christian community.",
+      "rationalization": "The language is generally respectful, though prescriptive, aiming to guide behavior rather than demean. It directly mentions Jesus Christ and His sacrifice for redemption. The text strongly emphasizes virtuous living, detailing appropriate conduct for different age groups and social roles within the early church. It promotes a framework of behavior meant to honor God and the teachings of Christ.",
+      "chapter": 2
+    },
+    {
+      "dignity_score": 6,
+      "christ_centered_score": 9,
+      "moral_score": 10,
+      "invitation": "The chapter invites the reader to live a life of obedience to authorities, kindness, and good works, all stemming from the grace of God through Jesus Christ. It calls for avoiding divisive behaviors and embracing a life of faith and action.",
+      "rationalization": "The language is generally respectful, encouraging gentleness and meekness (score of 6). The chapter strongly emphasizes the role of Jesus Christ in salvation, mentioning His name and the Holy Ghost, pointing to a high Christ-centered score of 9. The text explicitly outlines moral behaviors like avoiding evil speech, maintaining good works, and rejecting heretics, resulting in a moral score of 10. These directives are framed within the context of God's love and mercy offered through Christ.",
+      "chapter": 3
+    }
+  ]
+}
