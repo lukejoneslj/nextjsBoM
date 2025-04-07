@@ -1,0 +1,5 @@
+,dignity_score,dignity_score,dignity_score,dignity_score,dignity_score,dignity_score,dignity_score,dignity_score,christ_centered_score,christ_centered_score,christ_centered_score,christ_centered_score,christ_centered_score,christ_centered_score,christ_centered_score,christ_centered_score,moral_score,moral_score,moral_score,moral_score,moral_score,moral_score,moral_score,moral_score
+,count,mean,std,min,25%,50%,75%,max,count,mean,std,min,25%,50%,75%,max,count,mean,std,min,25%,50%,75%,max
+testament,,,,,,,,,,,,,,,,,,,,,,,,
+New Testament,255.0,7.113725490196078,1.2161996455726334,3.0,6.0,7.0,8.0,10.0,254.0,9.122047244094489,1.237133840799638,4.0,9.0,10.0,10.0,10.0,254.0,9.059055118110237,0.7651349650463944,6.0,9.0,9.0,10.0,10.0
+Old Testament,898.0,6.190423162583519,1.5251286617867974,1.0,6.0,6.0,7.0,10.0,897.0,3.971014492753623,1.0821431987918748,1.0,4.0,4.0,4.0,10.0,898.0,8.014476614699332,1.091577057608241,3.0,7.0,8.0,9.0,10.0
