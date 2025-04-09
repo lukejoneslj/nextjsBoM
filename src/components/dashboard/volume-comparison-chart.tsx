@@ -9,7 +9,8 @@ import {
   Radar,
   Legend,
   ResponsiveContainer,
-  Tooltip
+  Tooltip,
+  TooltipProps
 } from 'recharts';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 
@@ -95,12 +96,22 @@ export function VolumeComparisonChart({
   });
 
   // Custom tooltip to avoid NaN issues
-  const CustomTooltip = ({ active, payload, label }: any) => {
+  type CustomTooltipProps = TooltipProps<number, string> & {
+    active?: boolean;
+    payload?: {
+      value: number;
+      name: string;
+      color: string;
+    }[];
+    label?: string;
+  };
+
+  const CustomTooltip = ({ active, payload, label }: CustomTooltipProps) => {
     if (active && payload && payload.length) {
       return (
         <div className="bg-background border p-2 shadow-md rounded-md">
           <p className="font-medium">{label}</p>
-          {payload.map((entry: any) => (
+          {payload.map((entry) => (
             <p key={entry.name} style={{ color: entry.color }}>
               {entry.name}: {isNaN(entry.value) ? '0' : entry.value}
             </p>

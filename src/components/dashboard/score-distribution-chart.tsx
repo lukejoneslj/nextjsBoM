@@ -9,7 +9,8 @@ import {
   CartesianGrid, 
   Tooltip, 
   Legend, 
-  ResponsiveContainer 
+  ResponsiveContainer,
+  TooltipProps
 } from 'recharts';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { ScoreDistribution } from '@/lib/data-utils';
@@ -44,7 +45,16 @@ export function ScoreDistributionChart({
   const total = data.reduce((sum, item) => sum + item.count, 0);
   
   // Format tooltip to show count and percentage
-  const CustomTooltip = ({ active, payload, label }: any) => {
+  type CustomTooltipProps = TooltipProps<number, string> & {
+    active?: boolean;
+    payload?: {
+      value: number;
+      name: string;
+    }[];
+    label?: string;
+  };
+
+  const CustomTooltip = ({ active, payload, label }: CustomTooltipProps) => {
     if (active && payload && payload.length) {
       const count = payload[0].value;
       const percentage = ((count / total) * 100).toFixed(1);

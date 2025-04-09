@@ -181,6 +181,31 @@ def plot_testament_comparison(df, output_dir):
     plt.savefig(os.path.join(output_dir, 'testament_comparison.png'))
     plt.close()
 
+def find_extreme_scores(df, output_dir):
+    score_columns = ['dignity_score', 'christ_centered_score', 'moral_score']
+    results = []
+    
+    for score in score_columns:
+        # Find highest scoring chapter
+        highest = df.loc[df[score].idxmax()]
+        results.append({
+            'score_type': score,
+            'highest': {
+                'book': highest['book'],
+                'chapter': highest['chapter'],
+                'score': highest[score]
+            },
+            'lowest': {
+                'book': df.loc[df[score].idxmin()]['book'],
+                'chapter': df.loc[df[score].idxmin()]['chapter'],
+                'score': df.loc[df[score].idxmin()][score]
+            }
+        })
+    
+    # Save results to CSV
+    pd.DataFrame(results).to_csv(os.path.join(output_dir, 'extreme_scores.csv'), index=False)
+    return results
+
 def main():
     # Create output directory if it doesn't exist
     output_dir = Path(__file__).parent
@@ -198,7 +223,7 @@ def main():
     for col in score_columns:
         df[col] = pd.to_numeric(df[col], errors='coerce')
     
-    # Create visualizations
+    # Generate all visualizations
     plot_score_distributions(df, output_dir)
     plot_average_scores_by_book(df, output_dir)
     plot_average_scores_by_testament(df, output_dir)
@@ -208,13 +233,12 @@ def main():
     plot_summary_statistics(df, output_dir)
     plot_testament_comparison(df, output_dir)
     
-    # Save summary statistics
-    summary_stats = df[score_columns].describe()
-    summary_stats.to_csv(os.path.join(output_dir, 'summary_statistics.csv'))
+    # Find and save extreme scores
+    extreme_scores = find_extreme_scores(df, output_dir)
     
-    # Save testament-specific statistics
-    testament_stats = df.groupby('testament')[score_columns].describe()
-    testament_stats.to_csv(os.path.join(output_dir, 'testament_statistics.csv'))
+    # Save summary statistics
+    df[score_columns].describe().to_csv(os.path.join(output_dir, 'summary_statistics.csv'))
+    df.groupby('testament')[score_columns].describe().to_csv(os.path.join(output_dir, 'testament_statistics.csv'))
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main() 

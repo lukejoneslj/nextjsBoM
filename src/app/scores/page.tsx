@@ -1,5 +1,6 @@
-import React from 'react';
-import { getScriptureData, getScoreDistribution } from "@/lib/data-utils";
+'use client';
+
+import React, { useEffect, useState } from 'react';
 import { 
   Card,
   CardContent,
@@ -12,8 +13,6 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
   BarChart,
   Bar,
-  LineChart,
-  Line,
   XAxis,
   YAxis,
   CartesianGrid,
@@ -27,86 +26,74 @@ import {
   ScatterChart,
   ZAxis
 } from 'recharts';
+import type { VolumeData, ScoreType } from '@/lib/data-types';
+import { ScoreDistribution } from '@/lib/data-utils';
 
 const COLORS = ['#4f46e5', '#ec4899', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6'];
 
-export default async function ScoresPage() {
-  const scriptureData = await getScriptureData();
+export default function ScoresPage() {
+  const [scriptureData, setScriptureData] = useState<VolumeData[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [dignityDistribution, setDignityDistribution] = useState<ScoreDistribution[]>([]);
+  const [christDistribution, setChristDistribution] = useState<ScoreDistribution[]>([]);
+  const [moralDistribution, setMoralDistribution] = useState<ScoreDistribution[]>([]);
+  const [volumeScores, setVolumeScores] = useState<any[]>([]);
+  const [combinedStats, setCombinedStats] = useState<any>({});
+  const [correlationData, setCorrelationData] = useState<any[]>([]);
+  
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const response = await fetch('/api/scores');
+        if (!response.ok) {
+          throw new Error('Failed to fetch data');
+        }
+        const { 
+          data, 
+          dignityDistribution, 
+          christDistribution, 
+          moralDistribution,
+          volumeScores,
+          combinedStats,
+          correlationData
+        } = await response.json();
+        
+        setScriptureData(data);
+        setDignityDistribution(dignityDistribution);
+        setChristDistribution(christDistribution);
+        setMoralDistribution(moralDistribution);
+        setVolumeScores(volumeScores);
+        setCombinedStats(combinedStats);
+        setCorrelationData(correlationData);
+        setLoading(false);
+      } catch (err) {
+        console.error('Error fetching scripture data:', err);
+        setError('Could not load scripture data. Please check the server logs.');
+        setLoading(false);
+      }
+    }
 
-  if (!scriptureData || scriptureData.length === 0) {
+    fetchData();
+  }, []);
+
+  if (loading) {
     return (
       <div className="container mx-auto py-12">
         <h1 className="text-3xl font-bold mb-6 text-center">Score Analysis</h1>
-        <p className="text-center text-red-500">Could not load scripture data. Please check the data directory and file formats.</p>
+        <p className="text-center">Loading scripture data...</p>
       </div>
     );
   }
 
-  // Get score distributions
-  const dignityDistribution = getScoreDistribution(scriptureData, 'dignity_score');
-  const christDistribution = getScoreDistribution(scriptureData, 'christ_centered_score');
-  const moralDistribution = getScoreDistribution(scriptureData, 'moral_score');
-  
-  // Calculate total occurrences for each score type
-  const totalDignity = dignityDistribution.reduce((sum, item) => sum + item.count, 0);
-  const totalChrist = christDistribution.reduce((sum, item) => sum + item.count, 0);
-  const totalMoral = moralDistribution.reduce((sum, item) => sum + item.count, 0);
-  
-  // Prepare data for pie charts showing distribution by percentage
-  const dignityPieData = dignityDistribution.map(item => ({
-    name: `Score ${item.score}`,
-    value: Math.round((item.count / totalDignity) * 100),
-    score: item.score
-  }));
-  
-  const christPieData = christDistribution.map(item => ({
-    name: `Score ${item.score}`,
-    value: Math.round((item.count / totalChrist) * 100),
-    score: item.score
-  }));
-  
-  const moralPieData = moralDistribution.map(item => ({
-    name: `Score ${item.score}`,
-    value: Math.round((item.count / totalMoral) * 100),
-    score: item.score
-  }));
-  
-  // Calculate averages by volume
-  const volumeScores = scriptureData.map(volume => ({
-    name: volume.volume,
-    dignity: parseFloat(volume.avgDignityScore.toFixed(2)),
-    christ: parseFloat(volume.avgChristCenteredScore.toFixed(2)),
-    moral: parseFloat(volume.avgMoralScore.toFixed(2)),
-  }));
-  
-  // Calculate overall statistics
-  const combinedStats = {
-    avgDignity: scriptureData.reduce((sum, vol) => sum + vol.avgDignityScore, 0) / scriptureData.length,
-    avgChrist: scriptureData.reduce((sum, vol) => sum + vol.avgChristCenteredScore, 0) / scriptureData.length,
-    avgMoral: scriptureData.reduce((sum, vol) => sum + vol.avgMoralScore, 0) / scriptureData.length,
-    maxDignity: Math.max(...dignityDistribution.map(d => d.score)),
-    maxChrist: Math.max(...christDistribution.map(d => d.score)),
-    maxMoral: Math.max(...moralDistribution.map(d => d.score)),
-    modeDignity: dignityDistribution.reduce((prev, current) => (prev.count > current.count) ? prev : current).score,
-    modeChrist: christDistribution.reduce((prev, current) => (prev.count > current.count) ? prev : current).score,
-    modeMoral: moralDistribution.reduce((prev, current) => (prev.count > current.count) ? prev : current).score
-  };
-  
-  // Prepare data for correlation scatter plot
-  const correlationData = [];
-  scriptureData.forEach(volume => {
-    volume.books.forEach(book => {
-      book.chapters.forEach(chapter => {
-        correlationData.push({
-          x: chapter.dignity_score,
-          y: chapter.christ_centered_score,
-          z: chapter.moral_score,
-          name: `${book.book} ${chapter.chapter}`,
-          volume: volume.volume
-        });
-      });
-    });
-  });
+  if (error || !scriptureData || scriptureData.length === 0) {
+    return (
+      <div className="container mx-auto py-12">
+        <h1 className="text-3xl font-bold mb-6 text-center">Score Analysis</h1>
+        <p className="text-center text-red-500">{error || 'Could not load scripture data. Please check the data directory and file formats.'}</p>
+      </div>
+    );
+  }
 
   return (
     <div className="container mx-auto py-10">
@@ -126,15 +113,15 @@ export default async function ScoresPage() {
             <dl className="space-y-2">
               <div className="flex justify-between">
                 <dt className="font-medium">Average:</dt>
-                <dd>{combinedStats.avgDignity.toFixed(2)}</dd>
+                <dd>{combinedStats.avgDignity?.toFixed(2) || 'N/A'}</dd>
               </div>
               <div className="flex justify-between">
                 <dt className="font-medium">Most Common Score:</dt>
-                <dd>{combinedStats.modeDignity}</dd>
+                <dd>{combinedStats.modeDignity || 'N/A'}</dd>
               </div>
               <div className="flex justify-between">
                 <dt className="font-medium">Highest Volume Avg:</dt>
-                <dd>{volumeScores.sort((a, b) => b.dignity - a.dignity)[0].name}</dd>
+                <dd>{volumeScores.length > 0 ? [...volumeScores].sort((a, b) => b.dignity - a.dignity)[0]?.name : 'N/A'}</dd>
               </div>
             </dl>
           </CardContent>
@@ -149,15 +136,15 @@ export default async function ScoresPage() {
             <dl className="space-y-2">
               <div className="flex justify-between">
                 <dt className="font-medium">Average:</dt>
-                <dd>{combinedStats.avgChrist.toFixed(2)}</dd>
+                <dd>{combinedStats.avgChrist?.toFixed(2) || 'N/A'}</dd>
               </div>
               <div className="flex justify-between">
                 <dt className="font-medium">Most Common Score:</dt>
-                <dd>{combinedStats.modeChrist}</dd>
+                <dd>{combinedStats.modeChrist || 'N/A'}</dd>
               </div>
               <div className="flex justify-between">
                 <dt className="font-medium">Highest Volume Avg:</dt>
-                <dd>{volumeScores.sort((a, b) => b.christ - a.christ)[0].name}</dd>
+                <dd>{volumeScores.length > 0 ? [...volumeScores].sort((a, b) => b.christ - a.christ)[0]?.name : 'N/A'}</dd>
               </div>
             </dl>
           </CardContent>
@@ -172,15 +159,15 @@ export default async function ScoresPage() {
             <dl className="space-y-2">
               <div className="flex justify-between">
                 <dt className="font-medium">Average:</dt>
-                <dd>{combinedStats.avgMoral.toFixed(2)}</dd>
+                <dd>{combinedStats.avgMoral?.toFixed(2) || 'N/A'}</dd>
               </div>
               <div className="flex justify-between">
                 <dt className="font-medium">Most Common Score:</dt>
-                <dd>{combinedStats.modeMoral}</dd>
+                <dd>{combinedStats.modeMoral || 'N/A'}</dd>
               </div>
               <div className="flex justify-between">
                 <dt className="font-medium">Highest Volume Avg:</dt>
-                <dd>{volumeScores.sort((a, b) => b.moral - a.moral)[0].name}</dd>
+                <dd>{volumeScores.length > 0 ? [...volumeScores].sort((a, b) => b.moral - a.moral)[0]?.name : 'N/A'}</dd>
               </div>
             </dl>
           </CardContent>
@@ -189,49 +176,59 @@ export default async function ScoresPage() {
 
       {/* Distribution Charts */}
       <div className="grid gap-6 md:grid-cols-3 mb-8">
-        <ScoreDistributionChart 
-          data={dignityDistribution} 
-          title="Dignity Score Distribution"
-          scoreType="dignity_score"
-        />
-        <ScoreDistributionChart 
-          data={christDistribution} 
-          title="Christ-Centered Score Distribution"
-          scoreType="christ_centered_score"
-        />
-        <ScoreDistributionChart 
-          data={moralDistribution} 
-          title="Moral Score Distribution"
-          scoreType="moral_score"
-        />
+        {dignityDistribution.length > 0 && (
+          <ScoreDistributionChart 
+            data={dignityDistribution} 
+            title="Dignity Score Distribution"
+            scoreType="dignity_score"
+          />
+        )}
+        
+        {christDistribution.length > 0 && (
+          <ScoreDistributionChart 
+            data={christDistribution} 
+            title="Christ-Centered Score Distribution"
+            scoreType="christ_centered_score"
+          />
+        )}
+        
+        {moralDistribution.length > 0 && (
+          <ScoreDistributionChart 
+            data={moralDistribution} 
+            title="Moral Score Distribution"
+            scoreType="moral_score"
+          />
+        )}
       </div>
       
       {/* Volume Comparison */}
-      <Card className="mb-8">
-        <CardHeader>
-          <CardTitle>Volume Score Comparison</CardTitle>
-          <CardDescription>Compare average scores across different volumes</CardDescription>
-        </CardHeader>
-        <CardContent>
-          <div className="h-80">
-            <ResponsiveContainer width="100%" height="100%">
-              <BarChart
-                data={volumeScores}
-                margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
-              >
-                <CartesianGrid strokeDasharray="3 3" opacity={0.2} />
-                <XAxis dataKey="name" />
-                <YAxis domain={[0, 10]} />
-                <Tooltip />
-                <Legend />
-                <Bar dataKey="dignity" name="Dignity Score" fill="#4f46e5" />
-                <Bar dataKey="christ" name="Christ-Centered Score" fill="#ec4899" />
-                <Bar dataKey="moral" name="Moral Score" fill="#10b981" />
-              </BarChart>
-            </ResponsiveContainer>
-          </div>
-        </CardContent>
-      </Card>
+      {volumeScores.length > 0 && (
+        <Card className="mb-8">
+          <CardHeader>
+            <CardTitle>Volume Score Comparison</CardTitle>
+            <CardDescription>Compare average scores across different volumes</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <div className="h-80">
+              <ResponsiveContainer width="100%" height="100%">
+                <BarChart
+                  data={volumeScores}
+                  margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
+                >
+                  <CartesianGrid strokeDasharray="3 3" opacity={0.2} />
+                  <XAxis dataKey="name" />
+                  <YAxis domain={[0, 10]} />
+                  <Tooltip />
+                  <Legend />
+                  <Bar dataKey="dignity" name="Dignity Score" fill="#4f46e5" />
+                  <Bar dataKey="christ" name="Christ-Centered Score" fill="#ec4899" />
+                  <Bar dataKey="moral" name="Moral Score" fill="#10b981" />
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
+          </CardContent>
+        </Card>
+      )}
       
       {/* Pie Charts */}
       <Card className="mb-8">
@@ -251,7 +248,11 @@ export default async function ScoresPage() {
                 <ResponsiveContainer width="100%" height="100%">
                   <PieChart>
                     <Pie
-                      data={dignityPieData}
+                      data={dignityDistribution.map(item => ({
+                        name: `Score ${item.score}`,
+                        value: Math.round((item.count / combinedStats.totalDignity) * 100),
+                        score: item.score
+                      }))}
                       cx="50%"
                       cy="50%"
                       labelLine={true}
@@ -260,7 +261,7 @@ export default async function ScoresPage() {
                       fill="#8884d8"
                       dataKey="value"
                     >
-                      {dignityPieData.map((entry, index) => (
+                      {dignityDistribution.map((entry, index) => (
                         <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                       ))}
                     </Pie>
@@ -278,7 +279,11 @@ export default async function ScoresPage() {
                 <ResponsiveContainer width="100%" height="100%">
                   <PieChart>
                     <Pie
-                      data={christPieData}
+                      data={christDistribution.map(item => ({
+                        name: `Score ${item.score}`,
+                        value: Math.round((item.count / combinedStats.totalChrist) * 100),
+                        score: item.score
+                      }))}
                       cx="50%"
                       cy="50%"
                       labelLine={true}
@@ -287,7 +292,7 @@ export default async function ScoresPage() {
                       fill="#8884d8"
                       dataKey="value"
                     >
-                      {christPieData.map((entry, index) => (
+                      {christDistribution.map((entry, index) => (
                         <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                       ))}
                     </Pie>
@@ -305,7 +310,11 @@ export default async function ScoresPage() {
                 <ResponsiveContainer width="100%" height="100%">
                   <PieChart>
                     <Pie
-                      data={moralPieData}
+                      data={moralDistribution.map(item => ({
+                        name: `Score ${item.score}`,
+                        value: Math.round((item.count / combinedStats.totalMoral) * 100),
+                        score: item.score
+                      }))}
                       cx="50%"
                       cy="50%"
                       labelLine={true}
@@ -314,7 +323,7 @@ export default async function ScoresPage() {
                       fill="#8884d8"
                       dataKey="value"
                     >
-                      {moralPieData.map((entry, index) => (
+                      {moralDistribution.map((entry, index) => (
                         <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
                       ))}
                     </Pie>

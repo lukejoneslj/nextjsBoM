@@ -1,7 +1,6 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import { getAllChaptersByScore } from "@/lib/data-utils";
 import { 
   Table, 
   TableBody, 
@@ -32,19 +31,53 @@ import {
 } from 'recharts';
 import type { VolumeData } from '@/lib/data-types';
 
+interface ScatterDataPoint {
+  x: number;
+  y: number;
+  z: number;
+  name: string;
+  volume: string;
+  color: string;
+}
+
+interface ChapterData {
+  id: string;
+  bookName: string;
+  chapter: number;
+  volume: string;
+  dignityScore: number;
+  christScore: number;
+  moralScore: number;
+  color: string;
+  combinedScore?: number;
+}
+
+interface ChapterScore {
+  book: string;
+  chapter: number;
+  volume: string;
+  score: number;
+}
+
+interface StatsData {
+  totalChapters: number;
+  highestChapter: ChapterData | null;
+  avgDignity: number;
+  avgChrist: number;
+  avgMoral: number;
+}
+
 export default function ChaptersPage() {
   const [scriptureData, setScriptureData] = useState<VolumeData[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [topDignityChapters, setTopDignityChapters] = useState([]);
-  const [topChristChapters, setTopChristChapters] = useState([]);
-  const [topMoralChapters, setTopMoralChapters] = useState([]);
-  const [allChapters, setAllChapters] = useState([]);
-  const [dignityVsChristData, setDignityVsChristData] = useState([]);
-  const [christVsMoralData, setChristVsMoralData] = useState([]);
-  const [dignityVsMoralData, setDignityVsMoralData] = useState([]);
-  const [chaptersWithCombinedScore, setChaptersWithCombinedScore] = useState([]);
-  const [stats, setStats] = useState({
+  const [topDignityChapters, setTopDignityChapters] = useState<ChapterScore[]>([]);
+  const [topChristChapters, setTopChristChapters] = useState<ChapterScore[]>([]);
+  const [topMoralChapters, setTopMoralChapters] = useState<ChapterScore[]>([]);
+  const [dignityVsChristData, setDignityVsChristData] = useState<ScatterDataPoint[]>([]);
+  const [christVsMoralData, setChristVsMoralData] = useState<ScatterDataPoint[]>([]);
+  const [dignityVsMoralData, setDignityVsMoralData] = useState<ScatterDataPoint[]>([]);
+  const [stats, setStats] = useState<StatsData>({
     totalChapters: 0,
     highestChapter: null,
     avgDignity: 0,
@@ -97,8 +130,6 @@ export default function ChaptersPage() {
       )
     );
     
-    setAllChapters(chapters);
-    
     // Create data for scatter plot comparing two score types
     const dignityVsChrist = chapters.map(ch => ({ 
       x: ch.dignityScore, 
@@ -139,8 +170,6 @@ export default function ChaptersPage() {
       ...ch,
       combinedScore: (ch.dignityScore + ch.christScore + ch.moralScore) / 3
     })).sort((a, b) => b.combinedScore - a.combinedScore);
-    
-    setChaptersWithCombinedScore(withCombinedScore);
     
     const highestChapter = withCombinedScore[0];
     
@@ -198,8 +227,14 @@ export default function ChaptersPage() {
             <CardTitle className="text-sm font-medium">Highest Rated Chapter</CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="text-2xl font-bold">{stats.highestChapter.bookName} {stats.highestChapter.chapter}</div>
-            <p className="text-xs text-muted-foreground">{stats.highestChapter.volume} (Score: {stats.highestChapter.combinedScore.toFixed(2)})</p>
+            {stats.highestChapter ? (
+              <>
+                <div className="text-2xl font-bold">{stats.highestChapter.bookName} {stats.highestChapter.chapter}</div>
+                <p className="text-xs text-muted-foreground">{stats.highestChapter.volume} (Score: {stats.highestChapter.combinedScore?.toFixed(2)})</p>
+              </>
+            ) : (
+              <div className="text-2xl font-bold">No data</div>
+            )}
           </CardContent>
         </Card>
         <Card>

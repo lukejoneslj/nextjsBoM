@@ -23,11 +23,26 @@ import {
 import { VolumeComparisonChart } from '@/components/dashboard/volume-comparison-chart';
 import type { VolumeData } from '@/lib/data-types';
 
+interface VolumeComparison {
+  volume: string;
+  avgDignity: number;
+  avgChrist: number;
+  avgMoral: number;
+  bookCount: number;
+  chapterCount: number;
+}
+
+interface TopBook {
+  bookName: string;
+  volume: string;
+  avgChristCenteredScore: number;
+}
+
 export default function ComparePage() {
   const [scriptureData, setScriptureData] = useState<VolumeData[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [volumeComparison, setVolumeComparison] = useState([]);
+  const [volumeComparison, setVolumeComparison] = useState<VolumeComparison[]>([]);
   const [scoreComparisonData, setScoreComparisonData] = useState([]);
   const [countComparisonData, setCountComparisonData] = useState([]);
   const [topBookData, setTopBookData] = useState([]);
@@ -54,7 +69,7 @@ export default function ComparePage() {
     fetchData();
   }, []);
 
-  function processData(comparison: any[], topBooks: any[]) {
+  function processData(comparison: VolumeComparison[], topBooks: TopBook[]) {
     if (!comparison || comparison.length === 0) return;
     
     // Prepare data for score comparison chart
@@ -215,7 +230,7 @@ export default function ComparePage() {
                   }}
                 />
                 <Tooltip 
-                  formatter={(value, name, props) => [value, 'Average Score']}
+                  formatter={(value) => [value, 'Average Score']}
                   labelFormatter={(value) => `${value} (${topBookData.find(b => b.name === value)?.volume})`}
                 />
                 <Legend />
