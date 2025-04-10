@@ -1,3 +1,6 @@
+[![Watch the video](https://img.youtube.com/vi/6buEOYP_xSc/0.jpg)](https://www.youtube.com/watch?v=6buEOYP_xSc)
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
